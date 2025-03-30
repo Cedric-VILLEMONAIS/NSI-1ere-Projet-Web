@@ -5,8 +5,9 @@ body {
 }
 
 p{
-    text-align:justify
-    font-family: "Trebuchet MS"
+    text-align:justify;
+    font-family: "Trebuchet MS";
+    font-size: 120%;
 }
 
 h1 {
