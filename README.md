@@ -5,6 +5,7 @@ Cédric:
   création du favicon
   création du caroussel
   compléter sommaire page1.html
+  placeholder page3
 
 
 Nora:
