@@ -15,7 +15,9 @@
     width: 700px;
     border-radius: 50px;
     background-color: #dadada;
-    overflow: clip;
+    /* overflow: clip; */
+    display: flex;
+    justify-content: center;
 }
 
 .carrousel_photo_container>img {
@@ -37,4 +39,10 @@
 }
 #next_button {
     border-radius: 0 50% 50% 0;
+}
+.display_none {
+    display: none;
+}
+
+img::after {
 }
