@@ -23,11 +23,12 @@ button {
 
 table {
     width: 80%;
+    padding-left: 3px ;
     border-collapse: collapse;
     margin: auto;
 }
 th,td{
     border: 3px solid rgb(6, 112, 6);
-    padding: 10px 0px;
+    padding: 10px;
     text-align: center;
 }
