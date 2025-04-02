@@ -27,3 +27,6 @@ function change(action) {
     }
     image[actual_image].classList.remove("display_none");
 }
+
+
+setInterval(() => change("next"), 1500);

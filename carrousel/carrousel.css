@@ -5,10 +5,9 @@
 }
 
 .carrousel_container {
-    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 .carrousel_photo_container {
     height: 400px;
@@ -42,4 +41,16 @@
 }
 .display_none {
     display: none;
+}
+
+.carrousel_point {
+    font-size: 75px;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+.carrousel_point>ul {
+    display: flex;
+    flex-direction: row;
 }
