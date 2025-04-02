@@ -19,15 +19,6 @@ button {
     border-radius: 8px;
     font-size: 16px;
     float: left
-    transition-duration: 0.4s;
-}
-button:hover {
-    background-color: white;
-    border: 2px solid rgb(6, 112, 6);
-  }
-button:active {
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
 }
 
 table {
