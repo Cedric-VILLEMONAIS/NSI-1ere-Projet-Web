@@ -26,3 +26,9 @@ table {
     border-collapse: collapse;
     margin: auto;
 }
+th,td{
+    border: 1px solid rgb(6, 112, 6);
+    padding: 5px;
+    text-align: center;
+    background-color: #EEE;
+}
