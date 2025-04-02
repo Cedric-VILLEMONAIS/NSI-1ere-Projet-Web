@@ -1,4 +1,4 @@
 function changeCouleur() {
-    var paragraphe = document.getElementById("tomate");
+    var paragraphe = document.getElementById("important");
     paragraphe.classList.add("rouge");
 }
