@@ -30,3 +30,8 @@ table {
     border-collapse: collapse;
     margin: auto;
 }
+th, td {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+}
