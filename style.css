@@ -13,3 +13,9 @@ p, ul, ol , h3 {
 h1 {
     text-align: center
 }
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
