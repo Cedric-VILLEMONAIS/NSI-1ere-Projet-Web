@@ -28,6 +28,6 @@ table {
 }
 th,td{
     border: 3px solid rgb(6, 112, 6);
-    padding: 10px 3px;
+    padding: 10px 0px;
     text-align: center;
 }
