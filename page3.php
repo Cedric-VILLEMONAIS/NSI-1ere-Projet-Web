@@ -44,6 +44,7 @@ require "modules/head.php";
                 <td> 
                     <option value="multiply">Multiplication</option>
                     <p id="result"></p>
+                    <script src="script.js"></script>
                 </td>
             </tr>
             <tr>
