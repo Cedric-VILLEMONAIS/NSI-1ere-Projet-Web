@@ -6,26 +6,27 @@ require "modules/head.php";
 
         <h1>Les différentes variétés de tomates</h1>
         <p>Des <strong>petites</strong> aux <strong>énormes</strong>, les tomates ne cessent de changer de formes. <br> Voici certaines des diverses espèces des ces fruits pas nécessairement rouges !<br> <h3 id="sommaire">Sommaire des différentes espèces</h3></p>
+        <br>
         <?php
             require "carrousel/carrousel.php"
         ?>
+        <br>
         <ol class="sommaire">
             <li><p title="Allez directement à cette page !"><a href="#classiques">Tomates "Classiques"</a></p></li>
             <li><p title="Allez directement à cette page !"><a href="#cœur de bœuf">Tomates Cœurs de Bœuf</a></p></li>
             <li><p title="Allez directement à cette page !"><a href="#ananas">Tomates Ananas</a></p></li>
             <li><p title="Allez directement à cette page !"><a href="#cornues">Tomates Cornues</a></p></li>
             <li><p title="Allez directement à cette page !"><a href="#cerises">Tomates Cerises</a></p></li>
-         </ol>
+        </ol>
+        <br>
         <h3 id="classiques">Tomates "Classiques"</h3>
         <p>La tomate rouge classique est la variété la plus répandue et consommée à travers le monde. De taille moyenne et de forme ronde, elle se distingue par sa peau lisse et sa couleur rouge vif à maturité. <br> Polyvalente en cuisine, elle se déguste aussi bien crue en salade, en sandwich ou en bruschetta, que cuite dans des sauces, des soupes ou des plats mijotés. Riche en eau, en vitamines et en antioxydants, elle est à la fois rafraîchissante et bénéfique pour la santé. <br> Sa culture est relativement simple : elle nécessite un bon ensoleillement, un arrosage régulier et un tuteurage pour les variétés à croissance indéterminée. Présente dans tous les potagers, elle offre une récolte généreuse durant toute la saison estivale.<br></p>
         <!photos>
-            <a href="#sommaire">Retourner au sommaire</a>
-            <br>
+        <a href="#sommaire">Retourner au sommaire</a>
+        <br>
         <h3 id="cœur de bœuf">Tomates Cœurs de Bœuf</h3>
-        <p>La tomate Cœur de Bœuf est une variété ancienne réputée pour sa chair dense, juteuse et savoureuse, avec peu de graines et une faible acidité. De grande taille, elle se distingue par sa forme en cœur et sa peau fine, souvent de couleur rouge vif ou orangée à maturité. <br> Très appréciée en cuisine, elle est idéale pour les salades grâce à sa texture fondante, mais elle peut aussi être utilisée en carpaccio, en sandwich ou en sauce. <br> Sa culture demande du soleil, un sol riche et un tuteurage solide pour soutenir ses fruits volumineux. Plante indéterminée, elle produit tout au long de la saison, offrant des tomates charnues et parfumées aux amateurs de saveurs authentiques.<br></p>
-        <a href="tomate coeur de boeuf.jpeg"> <!mettre grandes images en plus grand pour cette tomate>
-            <img src="tomate coeur de boeuf mini.jpeg" height="100px" weight='10px' alt="Photo d'une tomate cœur de bœuf" title="Cliquez pour voir en grand !">
-        </a>
+        <p>La tomate Cœur de Bœuf est une variété ancienne réputée pour sa chair dense, juteuse et savoureuse, avec peu de graines et une faible acidité. De grande taille, elle se distingue par sa forme en cœur et sa peau fine, souvent de couleur rouge vif ou orangée à maturité. <br> Très appréciée en cuisine, elle est idéale pour les salades grâce à sa texture fondante, mais elle peut aussi être utilisée en carpaccio, en sandwich ou en sauce. <br> Sa culture demande du soleil, un sol riche et un tuteurage solide pour soutenir ses fruits volumineux. Plante indéterminée, elle produit tout au long de la saison, offrant des tomates charnues et parfumées aux amateurs de saveurs authentiques.<br></p>                <a href="tomate coeur de boeuf.jpeg"> <!mettre grandes images en plus grand pour cette tomate>
+            <img src="tomate coeur de boeuf mini.jpeg" height="100px" weight='10px' alt="Photo d'une tomate cœur de bœuf" title="Cliquez pour voir en grand !">                </a>
         <a href="tomate coeur de boeuf coupe.jpeg">
             <img src="tomate coeur de boeuf coupe mini.jpeg" height="100px" weight='10px' alt="Photo d'une tomate cœur de bœuf coupée" title="Cliquez pour voir en grand !">
         </a>
@@ -43,11 +44,10 @@ require "modules/head.php";
         <br>
         <a href="#sommaire">Retourner au sommaire</a>
         <br>
-
         <h3 id="cornues">Tomates Cornues</h3>
         <p>La tomate Cornue, aussi appelée "Cornue des Andes", est une variété ancienne reconnaissable à sa forme allongée et pointue, rappelant un piment. Sa peau fine et rouge vif renferme une chair dense, savoureuse et peu acide, avec très peu de graines. <br> Très appréciée en cuisine, elle est idéale pour les sauces, les coulis et les salades, grâce à sa texture fondante et son goût sucré. <br> Facile à cultiver, elle nécessite un bon ensoleillement, un sol riche et un tuteurage solide pour supporter ses fruits allongés. Productive et résistante aux maladies, elle est très prisée des jardiniers pour ses récoltes abondantes tout au long de l’été.<br></p>
         <!photos>
-        <a href="#sommaire">Retourner au sommaire</a>
+        <a href="#sommaire">Retourner au sommaire</a>                
         <br>
         <h3 id="cerises">Tomates Cerises</h3>
         <p>La tomate cerise est une petite variété de tomate très appréciée pour sa saveur sucrée et sa texture croquante. De forme ronde ou allongée, elle se décline en plusieurs couleurs, allant du rouge au jaune, en passant par l’orange et même le noir. <br> Très prisée en cuisine, elle se consomme aussi bien crue en salade, à l’apéritif ou en brochettes, que cuite dans des plats rôtis ou confits. <br> Facile à cultiver, elle pousse en grappes sur des plants vigoureux et nécessite peu d’entretien, ce qui en fait une variété idéale pour les jardiniers amateurs. Grâce à sa production abondante et à sa résistance aux maladies, elle offre des récoltes régulières tout au long de l’été.<br></p>
@@ -56,7 +56,6 @@ require "modules/head.php";
         <br>
         <br>
         <button><a href="index.php">Revenir à la page principale</a></button>
-
         <script src="script.js"></script>
     </body>
 </html>
