@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="script.js">
-        <link rel="stylesheet" href="interaction.js">
-        <link rel="stylesheet" href="interaction.css">
-        <title>variétés</title>
-    </head>
-    <body>
+<?php
+$page_title = "¨Page 2";
+$file_title = "page2";
+require "modules/head.php";
+?>
+
         <h1>Les différentes variétés de tomates</h1>
         <p>Des <strong>petites</strong> aux <strong>énormes</strong>, les tomates ne cessent de changer de formes. <br> Voici certaines des diverses espèces des ces fruits pas nécessairement rouges !<br> <h3 id="sommaire">Sommaire des différentes espèces</h3></p>
-        <ol>
+        <?php
+            require "carrousel/carrousel.php"
+        ?>
+        <ol class="sommaire">
             <li><p title="Allez directement à cette page !"><a href="#classiques">Tomates "Classiques"</a></p></li>
             <li><p title="Allez directement à cette page !"><a href="#cœur de bœuf">Tomates Cœurs de Bœuf</a></p></li>
             <li><p title="Allez directement à cette page !"><a href="#ananas">Tomates Ananas</a></p></li>
@@ -59,6 +55,8 @@
         <a href="#sommaire">Retourner au sommaire</a>
         <br>
         <br>
-        <button><a href="index.html">Revenir à la page principale</a></button>
+        <button><a href="index.php">Revenir à la page principale</a></button>
+
+        <script src="script.js"></script>
     </body>
 </html>

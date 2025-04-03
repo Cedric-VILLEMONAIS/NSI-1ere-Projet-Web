@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="script.js">
-        <link rel="stylesheet" href="interaction.js">
-        <link rel="stylesheet" href="interaction.css">
-        <title>Calculs</title>
-    </head>
-    <body>
+<?php
+$page_title = "Page 3";
+$file_title = "page3";
+require "modules/head.php";
+?>
+
         <h1>Les petits calculs pour des achats sûrs</h1>
         <table>
             <caption> Tableau de conversion </caption>
@@ -45,10 +38,13 @@
             </tr>
             <tr>
                 <td> </td>
-                <td> <input type="text" id="input" size="50" value="Cliquez ici" placeholder="Écrivez quelque chose..."></td>
-                <td> <input type="text" id="input" size="50" value="Cliquez ici" placeholder="Écrivez quelque chose..."></td>
-                <td> <input type="text" id="input" size="50" value="Cliquez ici" placeholder="Écrivez quelque chose..."></td>
-                <td> <input type="text" id="input" size="50" value="Cliquez ici" placeholder="Écrivez quelque chose..."></td>
+                <td> <input type="text" id="input" size="50" placeholder="Écrivez quelque chose..."></td>
+                <td> <input type="number" id="num1" placeholder="Entrer nombre..."></td>
+                <td> <input type="number" id="num2" placeholder="Entrer nombre..."></td>
+                <td> 
+                    <option value="multiply">Multiplication</option>
+                    <p id="result"></p>
+                </td>
             </tr>
             <tr>
                 <td>Prix du panier</td>
@@ -59,6 +55,8 @@
             </tr>
         </table>
         <br>
-        <button><a href="index.html">Revenir à la page principale</a></button>
+        <button><a href="index.php">Revenir à la page principale</a></button>
+
+        <script src="script.js"></script>
     </body>
 </html>

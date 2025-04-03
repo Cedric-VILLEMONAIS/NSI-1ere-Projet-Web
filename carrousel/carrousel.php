@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="carrousel.css">
+    <link rel="stylesheet" href="./carrousel/carrousel.css">
     <title>Carrousel</title>
 </head>
 <body>
@@ -24,17 +24,8 @@
                 }
             ?>
         </div>
-        <div class="carrousel_point">
-            <ul>
-            <?php
-                foreach($images as $fichier){
-                    echo "<li class='carrousel_point'>•</li>";
-                }
-            ?>
-            </ul>
-        </div>
         <button id="next_button" onclick="change('next')"><span class="material-icons">arrow_forward</span></button>
     </div>
-    <script src="carrousel.js"></script>
+    <script src="./carrousel/carrousel.js"></script>
 </body>
 </html>
