@@ -41,7 +41,6 @@ require "modules/head.php";
         <a href="tomate ananas coupe.webp">
             <img src="tomate ananas coupe mini.webp" height="100px" weight='10px' alt="Photo d'une tomate ananas coupée" title="Cliquez pour voir en grand !">
         </a>
-        <br>
         <a href="#sommaire">Retourner au sommaire</a>
         <br>
         <h3 id="cornues">Tomates Cornues</h3>
