@@ -20,7 +20,6 @@
             <li><a href="index.php" <?php if ($file_title == "index") { echo "class='navbar-a-active'"; } ?>>Accueil</a></li>
             <li><a href="page2.php" <?php if ($file_title == "page2") { echo "class='navbar-a-active'"; } ?>>Les variétés</a></li>
             <li><a href="page3.php" <?php if ($file_title == "page3") { echo "class='navbar-a-active'"; } ?>>Calculs</a></li>
-            <li><a href="#">Et pour l'instant c'est tout 😉</a></li>
         </ul>
         <div class="mobile-button">
             <div class="mobile-button-line-1"></div>

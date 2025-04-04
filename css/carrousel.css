@@ -13,7 +13,7 @@
     height: 400px;
     width: 700px;
     border-radius: 50px;
-    background-color: #dadada;
+    background: #fdf6f0;
     /* overflow: clip; */
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
 
 #back_button, #next_button {
     border: none;
-    background-color: #dadada;
+    background: #fdf6f0;
     height: 50px;
     width: 50px;
     cursor: pointer;
