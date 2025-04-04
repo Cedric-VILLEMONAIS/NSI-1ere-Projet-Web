@@ -6,6 +6,7 @@ Cédric:
   création du caroussel
   compléter sommaire page1.html
   placeholder page3
+  Navbar
 
 
 Nora:
