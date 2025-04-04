@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/navbar.css">
+
+        <link rel="stylesheet" href="./css/all.css">
+
         <title><?php echo $page_title; ?></title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
         <!-- Roboto font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,4 +28,3 @@
             <div class="mobile-button-line-3"></div>
         </div>
     </header>
-    <script src="./js/navbar.js"></script>

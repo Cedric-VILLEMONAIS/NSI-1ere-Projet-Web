@@ -29,4 +29,4 @@ function change(action) {
 }
 
 
-setInterval(() => change("next"), 1500);
+setInterval(() => change("next"), 2000);
