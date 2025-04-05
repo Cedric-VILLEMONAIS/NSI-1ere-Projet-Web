@@ -59,7 +59,7 @@ require "php/head.php";
 <button id="addtomatoes">Ajouter un différent type de tomate</button>
 <ul id="nouvelle ligne"></ul>
 <script src="script.js"></script>
-<br>
+<br><br>
 <button><a href="index.php">Revenir à la page principale</a></button>
 
 
