@@ -55,7 +55,7 @@ require "php/head.php";
         <td> </td>
         <td> hh</td>
     </tr>
-</table>
+</table> 
 <br>
 <button><a href="index.php">Revenir à la page principale</a></button>
 
