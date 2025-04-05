@@ -56,6 +56,10 @@ require "php/head.php";
         <td> hh</td>
     </tr>
 </table> 
+<input type="text" id="taskInput" placeholder="ajouter un différent type de tomate">
+<button id="addtomatoes">Ajouter</button>
+<ul id="nouvelle ligne"></ul>
+<script src="script.js"></script>
 <br>
 <button><a href="index.php">Revenir à la page principale</a></button>
 
