@@ -1,4 +1,5 @@
 <?php
+$page_title = "Page 2";
 $file_title = "page2";
 require "php/head.php";
 ?>
