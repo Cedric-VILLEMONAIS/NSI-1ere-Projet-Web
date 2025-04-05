@@ -30,9 +30,9 @@ require "php/head.php";
     <img src="images/tomate_coeur_de_boeuf.png" height="100px" weight='10px' alt="Photo d'une tomate cœur de bœuf" title="Cliquez pour voir en grand !">                </a>
 <a href="images/tomate_coeur_de_boeuf_coupe.png">
     <img src="images/tomate_coeur_de_boeuf_coupe.png" height="100px" weight='10px' alt="Photo d'une tomate cœur de bœuf coupée" title="Cliquez pour voir en grand !">
-</a>
+</a> 
 <br>
-<a href="#sommaire">Retourner au sommaire</a>
+<a href="#sommaire">Retourner au sommaire</a> 
 <br>
 <h3 id="ananas">Tomates Ananas</h3>
 <p>La tomate Ananas est une variété ancienne appréciée pour sa chair juteuse, sucrée et peu acide. De grande taille, elle peut peser plus de 500 g et se distingue par sa forme irrégulière et côtelée. Sa couleur jaune orangé, marbrée de rouge, rappelle l’intérieur d’un ananas, d’où son nom. <br> En cuisine, elle est idéale en salade, en carpaccio ou simplement accompagnée d’un filet d’huile d’olive, mais elle se prête aussi bien aux coulis et aux sauces douces et parfumées. <br> Sa culture nécessite beaucoup de soleil, un bon espacement et un tuteur solide pour supporter le poids des fruits. Plante indéterminée, elle continue de croître tant que les conditions sont favorables, offrant ainsi des récoltes généreuses tout au long de la saison.<br></p>
@@ -41,19 +41,21 @@ require "php/head.php";
 </a>
 <a href="images/tomate_ananas_coupe.png">
     <img src="images/tomate_ananas_coupe.png" height="100px" weight='10px' alt="Photo d'une tomate ananas coupée" title="Cliquez pour voir en grand !">
-</a>
+</a> 
+<br>
 <a href="#sommaire">Retourner au sommaire</a>
 <br>
 <h3 id="cornues">Tomates Cornues</h3>
 <p>La tomate Cornue, aussi appelée "Cornue des Andes", est une variété ancienne reconnaissable à sa forme allongée et pointue, rappelant un piment. Sa peau fine et rouge vif renferme une chair dense, savoureuse et peu acide, avec très peu de graines. <br> Très appréciée en cuisine, elle est idéale pour les sauces, les coulis et les salades, grâce à sa texture fondante et son goût sucré. <br> Facile à cultiver, elle nécessite un bon ensoleillement, un sol riche et un tuteurage solide pour supporter ses fruits allongés. Productive et résistante aux maladies, elle est très prisée des jardiniers pour ses récoltes abondantes tout au long de l’été.<br></p>
 <!photos>
-<a href="#sommaire">Retourner au sommaire</a>                
+<a href="#sommaire">Retourner au sommaire</a>       
 <br>
 <h3 id="cerises">Tomates Cerises</h3>
 <p>La tomate cerise est une petite variété de tomate très appréciée pour sa saveur sucrée et sa texture croquante. De forme ronde ou allongée, elle se décline en plusieurs couleurs, allant du rouge au jaune, en passant par l’orange et même le noir. <br> Très prisée en cuisine, elle se consomme aussi bien crue en salade, à l’apéritif ou en brochettes, que cuite dans des plats rôtis ou confits. <br> Facile à cultiver, elle pousse en grappes sur des plants vigoureux et nécessite peu d’entretien, ce qui en fait une variété idéale pour les jardiniers amateurs. Grâce à sa production abondante et à sa résistance aux maladies, elle offre des récoltes régulières tout au long de l’été.<br></p>
 <!photos>
-<a href="#sommaire">Retourner au sommaire</a>
 <br>
+<a href="#sommaire">Retourner au sommaire</a>  
+<br> 
 <br>
 <button><a href="index.php">Revenir à la page principale</a></button>
 
