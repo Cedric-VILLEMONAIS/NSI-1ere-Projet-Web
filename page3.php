@@ -53,7 +53,7 @@ require "php/head.php";
         <td> </td>
         <td> </td>
         <td> </td>
-        <td><input type="number" id="Résultat" placeholder="Entrer nombre..."></td>
+        <td id="resultat"><input placeholder="Résultat..."></td>
     </tr>
 </table> 
 <button id="addtomatoes">Ajouter un différent type de tomate</button>
