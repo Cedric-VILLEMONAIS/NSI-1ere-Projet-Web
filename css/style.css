@@ -13,12 +13,7 @@ h1 {
     text-align: center
 }
 
-button {
-    background-color:rgb(6, 112, 6);
-    border-radius: 8px;
-    font-size: 16px;
-    float: left
-}
+
 
 table {
     width: 80%;
@@ -35,6 +30,14 @@ th,td{
     text-decoration: none;
     color: #000;
     margin-left: 30px;
+}
+
+
+button {
+    background-color:rgb(6, 112, 6);
+    border-radius: 8px;
+    font-size: 16px;
+    float: right
 }
 
 button {
