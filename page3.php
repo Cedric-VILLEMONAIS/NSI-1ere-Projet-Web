@@ -40,11 +40,10 @@ require "php/head.php";
     <tr>
         <td> </td>
         <td> <input type="text" id="input" size="50" placeholder="Écrivez quelque chose..."></td>
-        <td> <input type="number" id="num1" placeholder="Entrer nombre..."></td>
-        <td> <input type="number" id="num2" placeholder="Entrer nombre..."></td>
+        <td id="num1"> <input type="number" placeholder="Entrer nombre..."></td>
+        <td id="num2"> <input type="number" placeholder="Entrer nombre..."></td>
         <td> 
-            <option value="multiply">Multiplication</option>
-            <p id="result"></p>
+            <p id="resultat"></p>
             <script src="script.js"></script>
         </td>
     </tr>
@@ -53,7 +52,7 @@ require "php/head.php";
         <td> </td>
         <td> </td>
         <td> </td>
-        <td id="resultat"><input placeholder="Résultat..."></td>
+        <td id="resultatfinal"><input placeholder="Résultat final..."></td>
     </tr>
 </table> 
 <button id="addtomatoes">Ajouter un différent type de tomate</button>
