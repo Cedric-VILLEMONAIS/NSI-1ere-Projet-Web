@@ -6,15 +6,15 @@ function changeCouleur() {
     paragraphe.classList.add("rouge");
 }
 
-document.getElementById('calculate').addEventListener('change', function() {
-    let num1 = parseFloat(document.getElementById('num1').value);
-    let num2 = parseFloat(document.getElementById('num2').value);
-    let operation = document.getElementById('operation').value;
-    let result;
-        result = num1 * num2;
-document.getElementById('result').textContent = 'Résultat : ' + result;
-});
+ // Récupération des valeurs
+ const a = parseInt(document.getElementById("valA").textContent);
+ const b = parseInt(document.getElementById("valB").textContent);
+ // Calcul
+ const somme = a + b;
+ // Affichage du résultat dans la cellule
+ document.getElementById("resultat").textContent = somme;
 
+ 
 document.getElementById('addtomatoes').addEventListener("click", function() {
     let taskInput = document.getElementById('taskInput');
     let taskText = taskInput.value;
