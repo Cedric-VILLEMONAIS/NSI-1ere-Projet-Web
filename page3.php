@@ -28,36 +28,41 @@ require "php/head.php";
     </tr>
 </table>
 <br>
-<table>
-    <caption> Tableau de calcul </caption>
-    <tr>
-        <th> </th>
-        <th> Type de tomate</th>
-        <th> Masse voulue (en kg)</th>
-        <th> Prix au kilo (en €)</th>
-        <th> Prix final (en €)</th>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> <input type="text" id="input" size="50" placeholder="Écrivez quelque chose..."></td>
-        <td> <input id="num1" type="number" placeholder="Entrer nombre..."></td>
-        <td> <input id="num2" type="number" onkeyup="calcul_tomates()" placeholder="Entrer nombre..."></td>
-        <td>  <p id="resultat"></p> </td>
-    </tr>
-    <tr>
-        <td>Prix du panier</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td id="resultatfinal"><input placeholder="Résultat final..."></td>
-    </tr>
+
+
+
+<table id="calculs-table">
+    <caption id="calculs-table-title"> Tableau de calcul </caption>
+    <tbody id="calculs-table-tbody">
+        <tr id="calculs-table-head">
+            <th>Type de tomate</th>
+            <th>Masse voulue (en kg)</th>
+            <th>Prix au kilo (en €)</th>
+            <th>Prix final (en €)</th>
+            <th></th>
+        </tr>
+        <tr id="calculs-table-name">
+            <td><input type="text" id="calculs-input-name" size="50" placeholder="Écrivez quelque chose..."></td>
+            <td><input id="calculs-input-weight" type="number" placeholder="Entrer nombre..."></td>
+            <td><input id="calculs-input-price" type="number" placeholder="Entrer nombre..."></td>
+            <td></td>
+            <td><button id="calculs-input-submit">Ajouter</button></td>
+        </tr>
+        <tr id="calculs-table-total-row">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="calculs-table-total"></td>
+            <td></td>
+        </tr>
+    </tbody>
 </table> 
-<button id="addtomatoes">Ajouter un différent type de tomate</button>
-<ul id="nouvelle ligne"></ul>
-<script src="script.js"></script>
+
+
 <button onclick="window.print();" >Imprimer la page</button>
+
 <br><br>
-<button><a href="index.php">Revenir à la page principale</a></button>
+<button id="button-return-home"><a href="index.php">Revenir à la page principale</a></button>
 
 
 
