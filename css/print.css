@@ -1,0 +1,7 @@
+header, #calculs-table-tbody>tr>th:last-child, #calculs-table-tbody>tr>td:last-child, #calculs-table-name, #button-return-home {
+    display: none;
+}
+
+table {
+    width: 100%;
+}
