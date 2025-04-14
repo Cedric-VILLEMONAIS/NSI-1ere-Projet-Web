@@ -16,3 +16,4 @@
     </div>
     <button id="next_button" onclick="change('next')"><span class="material-icons">arrow_forward</span></button>
 </div>
+<script src="./js/carrousel.js"></script>

@@ -1,35 +1,30 @@
 document.getElementById("alerte").addEventListener("click", function() {
     alert("Attention ! Vous devez bien respecter l'unité des éléments que vous rentrez dans le tableau ! Vos résultats peuvent être faussés !");
 });
+
+
 function changeCouleur() {
     var paragraphe = document.getElementById("important");
     paragraphe.classList.add("rouge");
 }
+// Important est présent nul part
+
 
 document.getElementById('addtomatoes');{
     float: left
 }
+// C'est du CSS le code est dans le mauvais fichier
 
-document.getElementById('num1','num2').addEventListener('change', function() {
-    let num1 = parseFloat(document.getElementById('num1').value);
-    let num2 = parseFloat(document.getElementById('num2').value);
-    let result;
-    result = num1 * num2;
 
-    document.getElementById('result').textContent = 'Prix : ' + result;
-});
+ function calcul_tomates() {
+    let num1 = document.getElementById("num1").value;
+    let num2 = document.getElementById("num2").value;
+    if (num2>0) {
+        let resultat = num1 * num2;
+        document.getElementById("resultat").innerHTML = resultat;
+    }
+ }
 
-//function multiplication() {
-    // Récupérer les valeurs des cellules
-  //  const valA = parseInt(document.getElementById("num1").textContent);
-    //const valB = parseInt(document.getElementById("num2").textContent);
-
-    // Effectuer la multiplication
-  //  const resultat = valA * valB;
-
-    // Afficher le résultat dans la cellule
-   // document.getElementById("resultat").textContent = resultat;
- // }
 
 
 document.getElementById('addtomatoes').addEventListener("click", function() {

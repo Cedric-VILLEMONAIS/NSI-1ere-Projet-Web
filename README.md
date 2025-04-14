@@ -7,6 +7,8 @@ Cédric:
   compléter sommaire page1.html
   placeholder page3
   Navbar
+  organisation du code
+  correction bug calculs tomates
 
 
 Nora:

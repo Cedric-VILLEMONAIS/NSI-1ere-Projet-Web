@@ -40,12 +40,9 @@ require "php/head.php";
     <tr>
         <td> </td>
         <td> <input type="text" id="input" size="50" placeholder="Écrivez quelque chose..."></td>
-        <td id="num1"> <input type="number" placeholder="Entrer nombre..."></td>
-        <td id="num2"> <input type="number" placeholder="Entrer nombre..."></td>
-        <td> 
-            <p id="resultat"></p>
-            <script src="script.js"></script>
-        </td>
+        <td> <input id="num1" type="number" placeholder="Entrer nombre..."></td>
+        <td> <input id="num2" type="number" onkeyup="calcul_tomates()" placeholder="Entrer nombre..."></td>
+        <td>  <p id="resultat"></p> </td>
     </tr>
     <tr>
         <td>Prix du panier</td>
@@ -60,6 +57,7 @@ require "php/head.php";
 <script src="script.js"></script>
 <br><br>
 <button><a href="index.php">Revenir à la page principale</a></button>
+
 
 
 <?php
