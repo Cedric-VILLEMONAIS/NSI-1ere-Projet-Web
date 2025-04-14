@@ -55,6 +55,7 @@ require "php/head.php";
 <button id="addtomatoes">Ajouter un différent type de tomate</button>
 <ul id="nouvelle ligne"></ul>
 <script src="script.js"></script>
+<button onclick="window.print();" >Imprimer la page</button>
 <br><br>
 <button><a href="index.php">Revenir à la page principale</a></button>
 
