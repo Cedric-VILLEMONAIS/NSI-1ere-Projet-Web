@@ -6,29 +6,8 @@ require "php/head.php";
 
 
 <h1>Les petits calculs pour des achats sûrs</h1>
-<table>
-    <caption> Tableau de conversion </caption>
-    <tr>
-        <th> Kg</th>
-        <th> hg</th>
-        <th> dag</th>
-        <th> g</th>
-        <th> dg</th>
-        <th> cg</th>
-        <th> mg</th>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td> hh </td>
-        <td> hh </td>
-        <td> hh </td>
-        <td> hh </td>
-        <td> hh </td>
-    </tr>
-</table>
-<br>
 
+<br>
 
 
 <table id="calculs-table">
