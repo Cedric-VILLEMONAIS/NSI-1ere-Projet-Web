@@ -8,7 +8,7 @@ require "php/head.php";
 <h1> Tout sur les tomates !!</h1>
 <br>
 <p><em>On vous dit tout sur ces fruits que l'on confond souvent avec des légumes: les <a href="https://fr.wikipedia.org/wiki/Tomate" target="_blank">tomates</a></em></p>
-<h2> Découvrez tout d'abord ce ue nous vous proposons sur notre site:</h2>
+<h2> Découvrez tout d'abord ce que nous vous proposons sur notre site:</h2>
 <br><br>
 <h3> Sommaire:</h3>
 <ul class="sommaire">
