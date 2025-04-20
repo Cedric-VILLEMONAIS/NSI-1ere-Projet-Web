@@ -3,6 +3,10 @@ body {
     background: #fdf6f0;
 }
 
+p {
+    text-align: justify;
+}
+
 p, ul, ol , h3 {
     text-align:justify;
     font-family: "Trebuchet MS";
@@ -51,3 +55,19 @@ button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.warning {
+    border: 10px ridge #f00;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+  }
+  
+  span.ingredient {
+    color: #f00;
+  }

@@ -6,18 +6,19 @@ require "php/head.php";
 
 
 <h1>Les différentes variétés de tomates</h1>
-<p>Des <strong>petites</strong> aux <strong>énormes</strong>, les tomates ne cessent de changer de formes. <br> Voici certaines des diverses espèces des ces fruits pas nécessairement rouges !<br> <h3 id="sommaire">Sommaire des différentes espèces</h3></p>
+<p>Des <strong>petites</strong> aux <strong>énormes</strong>, les tomates ne cessent de changer de formes. <br> Voici certaines des diverses espèces des ces fruits pas nécessairement rouges !</p>
 <br>
 <?php
     require "php/carrousel.php"
 ?>
 <br>
+<h3 id="sommaire">Sommaire des différentes espèces</h3>
 <ol class="sommaire">
-    <li><p title="Allez directement à cette page !"><a href="#classiques">Tomates "Classiques"</a></p></li>
-    <li><p title="Allez directement à cette page !"><a href="#cœur de bœuf">Tomates Cœurs de Bœuf</a></p></li>
-    <li><p title="Allez directement à cette page !"><a href="#ananas">Tomates Ananas</a></p></li>
-    <li><p title="Allez directement à cette page !"><a href="#cornues">Tomates Cornues</a></p></li>
-    <li><p title="Allez directement à cette page !"><a href="#cerises">Tomates Cerises</a></p></li>
+    <li><p title="Allez directement ici !"><a href="#classiques">Tomates "Classiques"</a></p></li>
+    <li><p title="Allez directement ici !"><a href="#cœur de bœuf">Tomates Cœurs de Bœuf</a></p></li>
+    <li><p title="Allez directement ici !"><a href="#ananas">Tomates Ananas</a></p></li>
+    <li><p title="Allez directement ici !"><a href="#cornues">Tomates Cornues</a></p></li>
+    <li><p title="Allez directement ici !"><a href="#cerises">Tomates Cerises</a></p></li>
 </ol>
 <br>
 <h3 id="classiques">Tomates "Classiques"</h3>
