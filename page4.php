@@ -1,15 +1,17 @@
 <?php
-$page_title = "Page 3";
-$file_title = "page3";
+$page_title = "Page4";
+$file_title = "page4";
 require "php/head.php";
 ?>
 
 <h1> Petites recettes </h1>
+<br>
 
 <div class="warning">
   <p>Vous n'êtes pas obligés de suivre les recettes à la lettre !</p>
   <p><mark>Laissez parler votre esprit créatif</mark><p>
 </div>
+<br>
 
 <h3 id="sommaire2">Sommaire des différentes espèces</h3>
 <ol class="sommaire">
