@@ -14,10 +14,14 @@ p, ul, ol , h3 {
 }
 
 h1 {
-    text-align: center
+    color:red;
+    text-align: center;
 }
 
-
+.introduction
+{
+    color: blue;
+}
 
 table {
     width: 80%;
