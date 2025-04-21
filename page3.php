@@ -37,6 +37,19 @@ require "php/head.php";
     </tbody>
 </table> 
 
+<fieldset>
+  <legend>Voulez-vous être livrés ?</legend>
+
+  <div>
+    <input type="checkbox" id="Oui" name="Oui" checked />
+    <label for="Oui">Oui, voir le prix final avec les frais de livraison</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="Non" name="Non" />
+    <label for="Non">Non, c'est bien comme ça</label>
+  </div>
+</fieldset>
 
 <button onclick="window.print();" >Imprimer la page</button>
 

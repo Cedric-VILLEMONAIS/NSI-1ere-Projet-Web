@@ -3,11 +3,11 @@
 // });
 
 
-// function changeCouleur() {
-//     var paragraphe = document.getElementById("important");
-//     paragraphe.classList.add("rouge");
-// }
-// // Important est présent nul part
+function changeCouleur() {
+   var paragraphe = document.getElementById("important");
+    paragraphe.classList.add("rouge");
+}
+
 
 
 document.getElementById("calculs-table-total").textContent = 0;
