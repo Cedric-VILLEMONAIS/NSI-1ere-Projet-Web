@@ -68,3 +68,16 @@ document.getElementById('calculs-input-submit').addEventListener("click", functi
 
     update_prices()
 });
+
+const otherCheckbox = document.querySelector("#other");
+
+otherCheckbox.addEventListener("change", () => {
+  if (otherCheckbox.checked) {
+    taxes = "visible";
+  } else {
+    taxes = "hidden";
+  }
+});
+
+document.getElementById('taxes').addEventListener("click", function() {
+    
