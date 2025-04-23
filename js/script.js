@@ -69,15 +69,20 @@ document.getElementById('calculs-input-submit').addEventListener("click", functi
     update_prices()
 });
 
-const otherCheckbox = document.querySelector("#other");
 
+const otherCheckbox = document.querySelector("#other");
+document.getElementById('taxes')
 otherCheckbox.addEventListener("change", () => {
   if (otherCheckbox.checked) {
-    taxes = "visible";
+    taxes.style.visibility = "visible";
   } else {
-    taxes = "hidden";
+    taxes.style.visibility = "hidden";
   }
 });
 
 document.getElementById('taxes').addEventListener("click", function() {
+    td_totaltaxes = total.value + 1.50;
+    alert("Le total à payer en comptant les frais de livraison est de:", totaltaxes.value);
+});
+
     

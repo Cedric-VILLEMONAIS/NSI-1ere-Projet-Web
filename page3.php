@@ -49,7 +49,7 @@ require "php/head.php";
     <input type="radio" id="livraison-non" name="livraison" />
     <label for="livraison-non">Non, c'est bien comme ça</label>
   </div>
-  <button id="taxes"><a href="index.php">ajouter 1,50€</a></button>
+  <button id="taxes">ajouter 1,50€</button>
 </fieldset>
 
 <br><br>

@@ -18,10 +18,7 @@ h1 {
     text-align: center;
 }
 
-input {
-    margin: 1,5rem;
-  }
-  
+
 .introduction
 {
     color: blue;
@@ -79,3 +76,17 @@ button:active {
   span.ingredient {
     color: #f00;
   }
+
+  a {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a:active {
+    color: red;
+}
