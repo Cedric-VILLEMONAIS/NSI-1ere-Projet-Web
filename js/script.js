@@ -3,11 +3,6 @@
 // });
 
 
-function changeCouleur() {
-   var paragraphe = document.getElementById("important");
-    paragraphe.classList.add("rouge");
-}
-
 
 
 document.getElementById("calculs-table-total").textContent = 0;
@@ -85,4 +80,14 @@ document.getElementById('taxes').addEventListener("click", function() {
     alert("Le total à payer en comptant les frais de livraison est de:", totaltaxes.value);
 });
 
-    
+
+
+var div = document.getElementById("important");
+div.addEventListener("mouseover", function() {
+    div.style.backgroundColor = "red";
+});
+
+//function changeCouleur() {
+  //  var paragraphe = document.getElementById("important");
+    // paragraphe.classList.add("rouge");
+ //}
