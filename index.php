@@ -17,7 +17,7 @@ require "php/head.php";
     <li><a href="page4.php">Petites Recettes</a></li>
 </ul>
 <br>
-<p id="important">On espère que ce site vous a plu </p>
+<p id="important">On espère que ce site vous a plû ! </p>
 
 <?php
 require "php/footer.php";

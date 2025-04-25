@@ -37,19 +37,21 @@ require "php/head.php";
     </tbody>
 </table> 
 
+<br><br>
 <fieldset>
   <legend>Voulez-vous être livrés ?</legend>
 
   <div>
-    <input type="radio" id="livraison-oui" name="livraison" checked />
+    <input type="radio" id="livraison-oui" name="livraison" checked/>
     <label for="livraison-oui">Oui, voir le prix final avec les frais de livraison</label>
+    <button id="taxes"> Ajouter 7,50€ </button>
   </div>
 
   <div>
     <input type="radio" id="livraison-non" name="livraison" />
     <label for="livraison-non">Non, c'est bien comme ça</label>
   </div>
-  <button id="taxes">ajouter 1,50€</button>
+  
 </fieldset>
 
 <br><br>

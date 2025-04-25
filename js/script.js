@@ -63,8 +63,18 @@ document.getElementById('calculs-input-submit').addEventListener("click", functi
 });
 
 
-//const otherCheckbox = document.querySelector("#other");
-//document.getElementById('taxes')
+const Radio = document.getElementById("livraison-oui")
+const taxes = document.getElementById("taxes");
+Radio.addEventListener("mousedown", function() {
+    if (Radio.checked) {
+      taxes.style.visibility = "visible";
+   } else{
+      taxes.style.visibility = "hidden";
+    }
+  });
+
+
+//taxes.style.visibility = "visible";
 //otherCheckbox.addEventListener("change", () => {
 //  if (otherCheckbox.checked) {
 //    taxes.style.visibility = "visible";
@@ -74,7 +84,7 @@ document.getElementById('calculs-input-submit').addEventListener("click", functi
 //});
 
 //document.getElementById('taxes').addEventListener("click", function() {
-//   td_totaltaxes = total.value + 1.50;
+//    totaltaxes = total_price + 1.50;
 //    alert("Le total à payer en comptant les frais de livraison est de:", totaltaxes.value);
 //});
 
