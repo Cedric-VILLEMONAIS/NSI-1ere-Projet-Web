@@ -89,5 +89,5 @@ Radio.addEventListener("mousedown", function() {
 //});
 
 document.getElementById("taxes").addEventListener("click", function() {
-  alert("Le total à payer en comptant les frais de livraison est de:");
+  alert("Le total à payer en comptant les frais de livraison est de:"+str(document.getElementById("calculs-table-total").textContent + 1.5));
 });
