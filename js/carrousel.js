@@ -10,20 +10,19 @@ var actual_image = 0;
 
 function change(action) {
     image[actual_image].classList.add("display_none");
-    if (action=="back") {
-        actual_image--;
-        if (actual_image<0) {
-            actual_image = image.length-1;
-        }
-    }
-    else if (action=="next") {
-        actual_image++;
-        if (actual_image==image.length) {
-            actual_image=0;
-        }
-    }
-    else {
-        console.log("error")
+    switch(action) {
+        case "back":
+            actual_image--;
+            if (actual_image<0) {
+                actual_image = image.length-1;
+            }
+        case "next":
+            actual_image++;
+            if (actual_image==image.length) {
+                actual_image=0;
+            }
+        default:
+            console.log("Fonction change(), paramètre incorect");
     }
     image[actual_image].classList.remove("display_none");
 }
