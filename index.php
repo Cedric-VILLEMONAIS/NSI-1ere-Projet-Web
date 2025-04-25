@@ -7,7 +7,7 @@ require "php/head.php";
 
 <h1> Tout sur les tomates !!</h1>
 <br>
-<p id="important"><em>On vous dit tout sur ces fruits que l'on confond souvent avec des légumes: les <a href="https://fr.wikipedia.org/wiki/Tomate" target="_blank">tomates</a></em></p>
+<p><em>On vous dit tout sur ces fruits que l'on confond souvent avec des légumes: les <a href="https://fr.wikipedia.org/wiki/Tomate" target="_blank">tomates</a></em></p>
 <h2 class="introduction"> Découvrez tout d'abord ce que nous vous proposons sur notre site:</h2>
 <br><br>
 <h3> Sommaire:</h3>
@@ -16,7 +16,8 @@ require "php/head.php";
     <li id="alerte"><a href="page3.php">Rapides calculs pour un achat sûr</a></li>
     <li><a href="page4.php">Petites Recettes</a></li>
 </ul>
-
+<br>
+<p id="important">On espère que ce site vous a plu </p>
 
 <?php
 require "php/footer.php";
