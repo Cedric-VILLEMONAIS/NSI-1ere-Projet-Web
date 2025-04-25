@@ -70,12 +70,6 @@ Radio.addEventListener("mousedown", function() {
     }
   });
 
-
-//document.getElementById('taxes').addEventListener("click", function() {
-//    totaltaxes = total_price + 1.50;
-//    alert("Le total à payer en comptant les frais de livraison est de:", totaltaxes.value);
-//});
-
 document.getElementById("taxes").addEventListener("click", function() {
-  alert("Le total à payer en comptant les frais de livraison est de:"+str(document.getElementById("calculs-table-total").textContent + 7.5));
+  alert("Le total à payer en comptant les frais de livraison est de:"+str(document.getElementById("calculs-table-total") + 7.50));
 });

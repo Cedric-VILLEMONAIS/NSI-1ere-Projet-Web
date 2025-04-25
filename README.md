@@ -17,6 +17,7 @@ Cédric:
   majorité des commentaires
   remodéler le code pour une efficacité supérieure 
   changer le php en html
+  correction et aide au codage des calculs
 
 
 
@@ -40,3 +41,5 @@ Nora:
   javascript du texte sur l'index pour le changer de couleur lorsque que l'on passe la souris et que l'on clique dessus
   modification des boutons pour les changer de forme et de place dans la page
   aide aux commentaires
+  balises div et span
+  début du codage des calculs
