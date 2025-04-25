@@ -1,10 +1,7 @@
-// document.getElementById("alerte").addEventListener("click", function() {
-//     alert("Attention ! Vous devez bien respecter l'unité des éléments que vous rentrez dans le tableau ! Vos résultats peuvent être faussés !");
-// });
-
-
+//On met l'élément "calculs-table-total", trouvé grâce à son id, à 0
 document.getElementById("calculs-table-total").textContent = 0;
 
+//définition d'une fonction nommer update_prices pour pouvoir augmenter les prix
 function update_prices() {
     let table_price = document.getElementsByClassName("calculs-table-price");
     let total_price = 0
@@ -74,20 +71,11 @@ Radio.addEventListener("mousedown", function() {
   });
 
 
-//taxes.style.visibility = "visible";
-//otherCheckbox.addEventListener("change", () => {
-//  if (otherCheckbox.checked) {
-//    taxes.style.visibility = "visible";
-//  } else {
-//    taxes.style.visibility = "hidden";
-//  }
-//});
-
 //document.getElementById('taxes').addEventListener("click", function() {
 //    totaltaxes = total_price + 1.50;
 //    alert("Le total à payer en comptant les frais de livraison est de:", totaltaxes.value);
 //});
 
 document.getElementById("taxes").addEventListener("click", function() {
-  alert("Le total à payer en comptant les frais de livraison est de:"+str(document.getElementById("calculs-table-total").textContent + 1.5));
+  alert("Le total à payer en comptant les frais de livraison est de:"+str(document.getElementById("calculs-table-total").textContent + 7.5));
 });
