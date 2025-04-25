@@ -27,6 +27,5 @@
             <div class="mobile-button-line-1"></div>
             <div class="mobile-button-line-2"></div>
             <div class="mobile-button-line-3"></div>
-            <div class="mobile-button-line-4"></div>
         </div>
     </header>
