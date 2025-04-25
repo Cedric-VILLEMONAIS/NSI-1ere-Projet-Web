@@ -18,6 +18,8 @@ Cédric:
   remodéler le code pour une efficacité supérieure 
   changer le php en html
   correction et aide au codage des calculs
+  mise en page du readme.md
+  aide rédaction readme.md
 
 
 
@@ -43,3 +45,4 @@ Nora:
   aide aux commentaires
   balises div et span
   début du codage des calculs
+  majorité rédaction readme.md
