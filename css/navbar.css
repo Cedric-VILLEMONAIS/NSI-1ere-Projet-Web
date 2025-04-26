@@ -1,59 +1,94 @@
+/* Feuille de style pour touts les éléments de la barre de navigation */
+
 /* Réinitialisation des styles */
 * {
+    /* Marge (extérieur) à 0 */
     margin: 0;
+    /* Padding (intérieur) à 0 */
     padding: 0;
+    /* Placements des éléments au bords de leur box */
     box-sizing: border-box;
-    text-decoration: none;
+    /* On cache les styles pour les liens */
+    text-decoration: none !important;
 }
 
 /* Définition des variables */
 :root {
+    /* Variable pour la couleur d'arrière plan */
     --navbar-background-color: #303030;
+    /* Variable pour l'ombre */
     --navbar-box-shadow: 0px 0px 20px 5px #a0a0a0;
+    /* Variable pour la position */
     --navbar-position: block;
+    /* Variable pour la marge sous la barre de navigation */
     --navbar-margin-bottom: 20px;
+    /* Variable pour les lignes sur le mode mobile */
     --navbar-mobile-button-lines-color: white;
+    /* Variable pour la couleur du texte des liens */
     --navbar-text-color: white;
-    --navbar-text-font-family: Arial;
+    /* Variable pour la police du texte des liens */
+    --navbar-text-font-family: "Roboto";
+    /* Variable pour la taille du texte des liens */
     --navbar-text-font-size: 19px;
+    /* Variable pour la couleur d'arrière plan lors du survol de la souris sur le lien */
     --navbar-text-hover: rgb(6, 112, 6);
+    /* Variable pour la couleur d'arrière plan lorsque le lien est actif (page actuelle) */
     --navbar-text-active: #ff0000;
+    /* Variable pour l'ombre lors du survol de la souris sur le lien */
     --navbar-text-hover-box-shadow: 4.5px 4.5px 10px color-mix(in srgb, var(--navbar-text-hover) 50%, #000), 
                                     -4.5px -4.5px 10px color-mix(in srgb, var(--navbar-text-hover) 50%, #fff);
+    /* Variable pour la couleur du texte lors du survol de la souris sur le lien */
     --navbar-text-hover-color: #fff;
+    /* Variable pour l'ombre lorsque le lien est actif (page actuelle) */
     --navbar-text-active-box-shadow: inset 4.5px 4.5px 10px color-mix(in srgb, var(--navbar-text-active) 50%, #000), 
                                     inset -4.5px -4.5px 10px color-mix(in srgb, var(--navbar-text-active) 50%, #fff);
+    /* Variable pour la couleur du texte lorsque le lien est actif (page actuelle) */
     --navbar-text-active-color: #fff;
 }
 
 /* Définition des styles de la navbar */
 header {
+    /* Changement de la couleur d'arrière plan avec une variable */
     background-color: var(--navbar-background-color);
+    /* Changement de la hauteur à 50px */
     height: 50px;
+    /* Changement de la largeur à 100% */
     width: 100%;
+    /* Changement de l'ombre avec une variable */
     box-shadow: var(--navbar-box-shadow);
+    /* Changement de la position avec une variable */
     position: var(--navbar-position);
+    /* Changement du placement (pour position fixed) */
     top: 0;
+    /* Changement de la marge du bas avec une variable */
     margin-bottom: var(--navbar-margin-bottom);
+    /* Changement de la hauteur sur l'axe z (se place au dessus de tous les éléments) */
     z-index: 1000;
 }
 
 /* Définition de la taille et du placements du ul pour que les li soient bien placés */
 header>ul {
+    /* Changement de la largeur à 100% */
     width: 100%;
+    /* Changement de la hauteur à 100% */
     height: 100%;
+    /* Changement du mode d'affichage en flex */
     display: flex !important;
+    /* Placement des éléments au centre avec le même espacement à droite et à gauche par rapport à l'axe vertical */
     justify-content: space-around;
+    /* Placement des éléments en ligne */
     flex-direction: row;
+    /* On retire le style de la liste (ul) */
     list-style: none;
 }
 
-/* Centrage des enfants de li */
+/* Centrage des enfants de li sur l'axe */
 header>ul>li {
+    /* Placement des éléments au centre par rapport à l'axe vertical */
     align-content: center;
 }
 
-/* Définition de la taille, de la couleur et de l'espacements des liens */
+/* Définition de la taille, de la police, de la couleur et de l'espacements des liens */
 header>ul>li>a {
     color: var(--navbar-text-color);
     font-family: var(--navbar-text-font-family);
@@ -62,7 +97,7 @@ header>ul>li>a {
 }
 
 /* Création d'un design de bouton pour les a */
-
+/* Changement de la couleur d'arrière plan, de l'arrondissement des bords, de la couleur du texte et de l'ombre du lien lorsque la souris survole le lien */
 header>ul>li>a:hover {
     background-color: var(--navbar-text-hover);
     border-radius: 17px;
@@ -70,6 +105,7 @@ header>ul>li>a:hover {
     box-shadow: var(--navbar-text-hover-box-shadow);
 }
 
+/* Changement de la couleur d'arrière plan, de l'arrondissement des bords, de la couleur du texte et de l'ombre du lien lorsqu'il est actif ainsi que lorsque la souris survole le lien actif */
 .navbar-a-active, .navbar-a-active:hover {
     background-color: var(--navbar-text-active);
     color: var(--navbar-text-active-color);
