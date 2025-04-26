@@ -1,4 +1,4 @@
-/**/
+/*mettre les élémets du body en écriture roboto avec un fond blanc cassé*/
 body {
     font-family: "Roboto";
     background: #fdf6f0;
@@ -53,15 +53,18 @@ button {
 button {
     transition-duration: 0.4s;
 }
+/*quand la souris est sur le bouton, mettre le fond du bouton en blanc et le bord en vert*/
 button:hover {
     background-color: white;
     border: 2px solid rgb(6, 112, 6);
   }
+/*quand on clique sur le bouton, mettre une ombre et déplacer le bouton sur la ligne verticale*/
 button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
+/*mettre les éléments de la classe warning avec une bordure rouge de 10px, un espace à l'intérieur de 0.5rem*/
 .warning {
     border: 10px ridge #f00;
     padding: 0.5rem;
@@ -69,25 +72,28 @@ button:active {
     flex-direction: column;
   }
 
+/*mettre les paragraphes dans les éléments de la classe warning avec un alignement au centre et mettre les lettres en small-caps bold avec 1.2rem en sans-serif*/
   .warning p {
     font: small-caps bold 1.2rem sans-serif;
     text-align: center;
   }
   
+  /*mettre les éléments dans les span ingrédient en rouge*/
   span.ingredient {
     color: #f00;
   }
 
+/*mettre les attributs en violet sans décoration du texte (soulignagne/surlignage/etc)*/
   a {
     text-decoration: none;
     color: purple;
 }
-
+/*mettre les attributs en vert avec un soulignage lorsqu'on passe la souris dessus*/
 a:hover {
     text-decoration: underline;
     color: green;
 }
-
+/*mettre les attributs tout en rouge lorsqu'on clique dessus en gardant le soulignage*/
 a:active {
     color: red;
 }

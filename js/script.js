@@ -3,9 +3,10 @@ document.getElementById("calculs-table-total").textContent = 0;
 
 //définition d'une fonction nommer update_prices pour pouvoir augmenter les prix
 function update_prices() {
-    let table_price = document.getElementsByClassName("calculs-table-price");
-    let total_price = 0
-    for (var i = 0; i < table_price.length; i++) {
+    let table_price = document.getElementsByClassName("calculs-table-price"); //déclation variable locale table_price en assignant les éléments situés dan s la classe 'calculs-table-price'
+    let total_price = 0 //déclaration d'une variable locale total_price en y assignant la valeur 0
+    // boucle 
+    for (var i = 0; i < table_price.length; i++) { 
         total_price += parseFloat(table_price[i].innerHTML);
     }
     document.getElementById("calculs-table-total").textContent = total_price;
