@@ -1,6 +1,6 @@
 /* Feuille de style pour touts les éléments du carrousel */
 
-/* Pour toutes les éléments de la page on réinitialise les espacements afin de les personnaliser plus efficacement */
+/* Pour touts les éléments de la page on réinitialise les espacements afin de les personnaliser plus efficacement */
 * {
     /* Marge (extérieur) à 0 */
     margin: 0;
@@ -14,9 +14,9 @@
 .carrousel_container {
     /* Changement du mode d'affichage en flex */
     display: flex;
-    /* Placement des éléments au centre par rapport à l'axe vertical */
-    justify-content: center;
     /* Placement des éléments au centre par rapport à l'axe horizontal */
+    justify-content: center;
+    /* Placement des éléments au centre par rapport à l'axe vertical */
     align-items: center;
 }
 
@@ -31,7 +31,7 @@
     background: #fdf6f0;
     /* Changement du mode d'affichage en flex */
     display: flex;
-    /* Placement des éléments au centre par rapport à l'axe vertical */
+    /* Placement des éléments au centre par rapport à l'axe horizontal */
     justify-content: center;
 }
 
