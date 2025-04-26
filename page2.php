@@ -25,8 +25,10 @@ require "php/head.php";
 
 <h3 id="classiques">Tomates "Classiques"</h3>
 <p>La tomate rouge classique est la variété la plus répandue et consommée à travers le monde. De taille moyenne et de forme ronde, elle se distingue par sa peau lisse et sa couleur rouge vif à maturité. <br> Polyvalente en cuisine, elle se déguste aussi bien crue en salade, en sandwich ou en bruschetta, que cuite dans des sauces, des soupes ou des plats mijotés. Riche en eau, en vitamines et en antioxydants, elle est à la fois rafraîchissante et bénéfique pour la santé. <br> Sa culture est relativement simple : elle nécessite un bon ensoleillement, un arrosage régulier et un tuteurage pour les variétés à croissance indéterminée. Présente dans tous les potagers, elle offre une récolte généreuse durant toute la saison estivale.<br></p>
-<!photos>
-<br>
+<a href="images/tomate_classique.png">
+    <img src="images/tomate_classique.png" height="100px" weight='10px' alt="Photo d'une tomate classique" title="Cliquez pour voir en grand !">
+</a>
+<br><br>
 <a href="#sommaire1">Retourner au sommaire</a>
 <br><br>
 
@@ -51,17 +53,25 @@ require "php/head.php";
 <br><br>
 <a href="#sommaire1">Retourner au sommaire</a>
 <br><br>
+
 <h3 id="cornues">Tomates Cornues</h3>
 <p>La tomate Cornue, aussi appelée "Cornue des Andes", est une variété ancienne reconnaissable à sa forme allongée et pointue, rappelant un piment. Sa peau fine et rouge vif renferme une chair dense, savoureuse et peu acide, avec très peu de graines. <br> Très appréciée en cuisine, elle est idéale pour les sauces, les coulis et les salades, grâce à sa texture fondante et son goût sucré. <br> Facile à cultiver, elle nécessite un bon ensoleillement, un sol riche et un tuteurage solide pour supporter ses fruits allongés. Productive et résistante aux maladies, elle est très prisée des jardiniers pour ses récoltes abondantes tout au long de l’été.<br></p>
-<!photos>
-<a href="#sommaire1">Retourner au sommaire</a>       
+<a href="images/tomate_cornue.png">
+    <img src="images/tomate_cornue.png" height="100px" weight='10px' alt="Photo d'une tomate cornue" title="Cliquez pour voir en grand !">
+</a>
 <br><br>
+<a href="#sommaire1">Retourner au sommaire</a>     
+<br><br>
+
 <h3 id="cerises">Tomates Cerises</h3>
 <p>La tomate cerise est une petite variété de tomate très appréciée pour sa saveur sucrée et sa texture croquante. De forme ronde ou allongée, elle se décline en plusieurs couleurs, allant du rouge au jaune, en passant par l’orange et même le noir. <br> Très prisée en cuisine, elle se consomme aussi bien crue en salade, à l’apéritif ou en brochettes, que cuite dans des plats rôtis ou confits. <br> Facile à cultiver, elle pousse en grappes sur des plants vigoureux et nécessite peu d’entretien, ce qui en fait une variété idéale pour les jardiniers amateurs. Grâce à sa production abondante et à sa résistance aux maladies, elle offre des récoltes régulières tout au long de l’été.<br></p>
-<!photos>
+<a href="images/tomate_cerise.png">
+    <img src="images/tomate_cerise.png" height="100px" weight='10px' alt="Photo d'une tomate cerise" title="Cliquez pour voir en grand !">
+</a>
 <br><br>
 <a href="#sommaire1">Retourner au sommaire</a>  
 <br><br>
+
 <button><a href="index.php">Revenir à la page principale</a></button>
 
 

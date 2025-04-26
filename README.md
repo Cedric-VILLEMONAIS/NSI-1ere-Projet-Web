@@ -3,25 +3,46 @@ Documentation
 Cédric:
   création du site
   création du favicon
-  création du caroussel
+  création du caroussel 
   compléter sommaire page1.html
   placeholder page3
-  Navbar
+  Création de la barre de navigation et des ancrages sur les boutons
+  importation de la barre de navigation
   organisation du code
-  correction bug calculs tomates
+  correction bugs dans le tableau pour les calculs pour le prix des tomates
+  création du bouton pour imprimer page3
+  mise en place du fond d'écran
+  organisation des images
+  envoi du site
+  majorité des commentaires
+  remodéler le code pour une efficacité supérieure 
+  changer le php en html
+  correction et aide au codage des calculs
+  mise en page du readme.md
+  aide rédaction readme.md
+
+
 
 
 Nora:
   idée du site
-  création pages html 1, 2, 3 et leurs titres
-  création lien externe s'ouvrant dans une nouvelle fenêtre
+  création pages 1, 2, 3, 4et leurs titres
+  création lien externe s'ouvrant dans une nouvelle fenêtre 
   création liens d'ancrage
-  importation du fond d'écran
-  mise en page des pages html
+  importation du favicon et de toutes les photos
+  création du texte et sa mise en page avec celle des pages 
+  mise en place des images
   importaion photos tomates ananas et coeur de boeuf et les mettre en plus grand en cliquant dessus
   création boutons avec leurs liens et leurs animations
-  créations tableaux 
-  début création des barres de recherche dans les cellules
-  création sommaire page 1
-  création textes et sommaires page3.html 
-  début message d'alerte pour aller sur la page 2
+  création du tableau de calcul
+  création des barres de texte dans les cellules
+  création des sommaires
+  création de la page4
+  mise en place des titres 
+  css des liens pour pouvoir les changer de couleur lorsqu'on passe la souris dessus et que l'on clique dessus
+  javascript du texte sur l'index pour le changer de couleur lorsque que l'on passe la souris et que l'on clique dessus
+  modification des boutons pour les changer de forme et de place dans la page
+  aide aux commentaires
+  balises div et span
+  début du codage des calculs
+  majorité rédaction readme.md

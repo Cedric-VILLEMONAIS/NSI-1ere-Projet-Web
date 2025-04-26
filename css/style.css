@@ -1,69 +1,70 @@
+/*mettre les élémets du body en écriture roboto avec un fond blanc cassé*/
 body {
     font-family: "Roboto";
     background: #fdf6f0;
 }
 
-p {
-    text-align: justify;
-}
-
+/*Mettre tous les paragraphes, les titres "h3" et tous les sommaires avec un alignement des caractères pareil à droite et à gauche, avec l'écriture 'Trebuchet MS' et avec une taille sur les premières glyphes de 120% */
 p, ul, ol , h3 {
     text-align:justify;
     font-family: "Trebuchet MS";
     font-size: 120%;
 }
 
+/*mettre tous les titrs principaux 'h1' de la couleur rouge et aligner au centre de la page */
 h1 {
     color:red;
     text-align: center;
 }
 
-input {
-    margin: 1,5rem;
-  }
-  
+ /*Mettre les éléments de la classe 'introduction' en bleu*/
 .introduction
 {
     color: blue;
 }
 
+/*mettre le tableau avec une épaisseur de 80%, une bordure de type collapse et un espacement à l'extérieur (entre le bord de la page et du bord du tableau) de type automatique*/
 table {
     width: 80%;
     border-collapse: collapse;
     margin: auto;
 }
+/*mettre les cellules du tableau ave une bordure verte, d'paisseur de 3 px et de type solide, et un espacement entre les bordures et le texte de 10px et avec le texte centré dans la cellule*/
 th,td{
     border: 3px solid rgb(6, 112, 6);
     padding: 10px;
     text-align: center;
 }
-
+/*mettre les éléments de la classe sommaire ave aucune décoration autour, une couleur noire, et un espacement entre e bord de la page et le texte à gauche de 30px*/
 .sommaire {
     text-decoration: none;
     color: #000;
     margin-left: 30px;
 }
 
-
+/*mettre tous les boutons avec un fond vert, un arrondissement des angles de 8 px, une taille des caractères de devant de 16 px et un flottement*/
 button {
     background-color:rgb(6, 112, 6);
     border-radius: 8px;
     font-size: 16px;
     float: right
 }
-
+/*mettre une transition de 0,4s sur les boutons*/
 button {
     transition-duration: 0.4s;
 }
+/*quand la souris est sur le bouton, mettre le fond du bouton en blanc et le bord en vert*/
 button:hover {
     background-color: white;
     border: 2px solid rgb(6, 112, 6);
   }
+/*quand on clique sur le bouton, mettre une ombre et déplacer le bouton sur la ligne verticale*/
 button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
+/*mettre les éléments de la classe warning avec une bordure rouge de 10px, un espace à l'intérieur de 0.5rem*/
 .warning {
     border: 10px ridge #f00;
     padding: 0.5rem;
@@ -71,11 +72,28 @@ button:active {
     flex-direction: column;
   }
 
+/*mettre les paragraphes dans les éléments de la classe warning avec un alignement au centre et mettre les lettres en small-caps bold avec 1.2rem en sans-serif*/
   .warning p {
     font: small-caps bold 1.2rem sans-serif;
     text-align: center;
   }
   
+  /*mettre les éléments dans les span ingrédient en rouge*/
   span.ingredient {
     color: #f00;
   }
+
+/*mettre les attributs en violet sans décoration du texte (soulignagne/surlignage/etc)*/
+  a {
+    text-decoration: none;
+    color: purple;
+}
+/*mettre les attributs en vert avec un soulignage lorsqu'on passe la souris dessus*/
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+/*mettre les attributs tout en rouge lorsqu'on clique dessus en gardant le soulignage*/
+a:active {
+    color: red;
+}

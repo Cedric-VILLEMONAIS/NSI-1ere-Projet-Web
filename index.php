@@ -16,7 +16,8 @@ require "php/head.php";
     <li id="alerte"><a href="page3.php">Rapides calculs pour un achat sûr</a></li>
     <li><a href="page4.php">Petites Recettes</a></li>
 </ul>
-
+<br>
+<p id="important">On espère que ce site vous a plû ! </p>
 
 <?php
 require "php/footer.php";
