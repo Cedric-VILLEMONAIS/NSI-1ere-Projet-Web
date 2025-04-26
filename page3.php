@@ -44,7 +44,7 @@ require "php/head.php";
   <div>
     <input type="radio" id="livraison-oui" name="livraison" checked/>
     <label for="livraison-oui">Oui, voir le prix final avec les frais de livraison</label>
-    <button id="taxes"> Ajouter 7,50€ </button>
+    <button id="taxes">Ajouter 7,50 €</button>
   </div>
 
   <div>
