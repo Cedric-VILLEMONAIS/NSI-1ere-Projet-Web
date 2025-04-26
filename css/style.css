@@ -1,3 +1,4 @@
+/**/
 body {
     font-family: "Roboto";
     background: #fdf6f0;
@@ -48,7 +49,7 @@ button {
     font-size: 16px;
     float: right
 }
-
+/*mettre une transition de 0,4s sur les boutons*/
 button {
     transition-duration: 0.4s;
 }
