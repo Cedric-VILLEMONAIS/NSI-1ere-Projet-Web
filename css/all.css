@@ -1,4 +1,9 @@
+/* Ce fichier permet d'importer toutes les feuilles de style css afin de clarifier le <head> */
+/* Importation du CSS pour le carrousel */
 @import url(carrousel.css);
+/* Importation du CSS pour la barre de navibation */
 @import url(navbar.css);
+/* Importation du CSS général */
 @import url(style.css);
+/* Importation du CSS pour le design Google Material Icons */
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
