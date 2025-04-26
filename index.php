@@ -1,5 +1,5 @@
 <?php
-$page_title = "Tomates";
+$page_title = "Les tomates - Accueil";
 $file_title = "index";
 require "php/head.php";
 ?>

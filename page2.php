@@ -1,5 +1,5 @@
 <?php
-$page_title = "Page 2";
+$page_title = "Les tomates - Les variétés";
 $file_title = "page2";
 require "php/head.php";
 ?>
