@@ -41,7 +41,7 @@ th,td{
     margin-left: 30px;
 }
 
-/*mettre tous les boutons avec un fond vert, un arrondissement des angles de 8 px, une taille des caractères de devant de 16 px */
+/*mettre tous les boutons avec un fond vert, un arrondissement des angles de 8 px, une taille des caractères de devant de 16 px et un flottement*/
 button {
     background-color:rgb(6, 112, 6);
     border-radius: 8px;
