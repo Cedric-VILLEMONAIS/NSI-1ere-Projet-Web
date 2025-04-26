@@ -1,7 +1,7 @@
-header, #calculs-table-tbody>tr>th:last-child, #calculs-table-tbody>tr>td:last-child, #calculs-table-name, #button-return-home {
+.no-print {
     display: none;
 }
 
-table {
+#calculs-table {
     width: 100%;
 }

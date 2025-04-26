@@ -48,6 +48,7 @@ document.getElementById('calculs-input-submit').addEventListener("click", functi
     td_total.classList.add("calculs-table-price");
 
     action.appendChild(deleteButton);
+    action.classList.add("no-print");
     tr.appendChild(td_name);
     tr.appendChild(td_weight);
     tr.appendChild(td_price);

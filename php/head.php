@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-    <header>
+    <header class="no-print">
         <ul>
             <li><a href="index.php" <?php if ($file_title == "index") { echo "class='navbar-a-active'"; } ?>>Accueil</a></li>
             <li><a href="page2.php" <?php if ($file_title == "page2") { echo "class='navbar-a-active'"; } ?>>Les variétés</a></li>
