@@ -1,56 +1,77 @@
+/* Feuille de style pour touts les éléments du carrousel */
+
+/* Pour toutes les éléments de la page on réinitialise les espacements afin de les personnaliser plus efficacement */
 * {
+    /* Marge (extérieur) à 0 */
     margin: 0;
+    /* Padding (intérieur) à 0 */
     padding: 0;
+    /* Placements des éléments au bords de leur box */
     box-sizing: border-box;
 }
 
+/* Code pour le conteneur principal */
 .carrousel_container {
+    /* Changement du mode d'affichage en flex */
     display: flex;
+    /* Placement des éléments au centre par rapport à l'axe vertical */
     justify-content: center;
+    /* Placement des éléments au centre par rapport à l'axe horizontal */
     align-items: center;
 }
+
+/* Code pour le conteneur des photos */
 .carrousel_photo_container {
+    /* Réglage de la hauteur à 400 pixels et de la largeur à 700 pixels */
     height: 400px;
     width: 700px;
+    /* Définition de l'arorondissement des coins à 50 pixels */
     border-radius: 50px;
+    /* Changement de l'arrière plan */
     background: #fdf6f0;
-    /* overflow: clip; */
+    /* Changement du mode d'affichage en flex */
     display: flex;
+    /* Placement des éléments au centre par rapport à l'axe vertical */
     justify-content: center;
 }
 
+/* Code pour les images du conteneur des photos */
 .carrousel_photo_container>img {
+    /* Réglage de la hauteur à 100% (prend toute la hauteur disponible dans son parent */
     height: 100%;
 }
 
+/* Code pour les boutons précédent et suivant */
 #back_button, #next_button {
+    /* On cacher les bordures par défaut du bouton */
     border: none;
+    /* Changement de l'arrière plan */
     background: #fdf6f0;
+    /* Réglage de la hauteur à 50 pixels et de la largeur à 50 pixels */
     height: 50px;
     width: 50px;
+    /* Changement du mode de curseur vers un curseur pointer (même curseur que sur les liens) */
     cursor: pointer;
 }
+
+/* Code pour les icones des boutons précédent et suivant */
 #back_button>span, #next_button>span {
+    /* Mise de la taille de la police (dans nôtre cas de l'icone) à 35 pixels */
     font-size: 35px;
 }
+
+/* Code pour le bouton précédent */
 #back_button {
+    /* Mise d'un arrondi à 50% dans les coins du côté gauche */
     border-radius: 50% 0 0 50%;
 }
+/* Code pour le bouton suivant */
 #next_button {
+    /* Mise d'un arrondi à 50% dans les coins du côté droit */
     border-radius: 0 50% 50% 0;
 }
+
+/* On cache tous les élements ayant la classe display_none */
 .display_none {
     display: none;
-}
-
-.carrousel_point {
-    font-size: 75px;
-    list-style: none;
-    position: absolute;
-    top: 0;
-}
-
-.carrousel_point>ul {
-    display: flex;
-    flex-direction: row;
 }
