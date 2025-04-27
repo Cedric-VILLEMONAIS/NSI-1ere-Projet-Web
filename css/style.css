@@ -4,10 +4,9 @@ body {
     background: #fdf6f0;
 }
 
-/*Mettre tous les paragraphes, les titres "h3" et tous les sommaires avec un alignement des caractères pareil à droite et à gauche, avec l'écriture 'Trebuchet MS' et avec une taille sur les premières glyphes de 120% */
+/*Mettre tous les paragraphes, les titres "h3" et tous les sommaires avec un alignement des caractères pareil à droite et à gauche et avec une taille sur les premières glyphes de 120% */
 p, ul, ol , h3 {
     text-align:justify;
-    font-family: "Trebuchet MS";
     font-size: 120%;
 }
 
@@ -117,4 +116,88 @@ a:hover {
 /*mettre les attributs tout en rouge lorsqu'on clique dessus en gardant le soulignage*/
 a:active {
     color: red;
+}
+
+/* Cacher touts les éléments ayant la classe display-none */
+.display-none {
+    display: none;
+}
+
+/* Code pour appareils plus petits */
+/* Pour les appareils ayant une largeur inférieure à 1300px */
+@media screen and (max-width: 1300px) {
+    /* On augmente la largeur du tableau des calculs et du conteneur pour la livraison */
+    #calculs-table {
+        width: 95%;
+    }
+    #calculs-livraison-container {
+        width: 95%;
+    }
+}
+/* Pour les appareils ayant une largeur inférieure à 1101px */
+@media screen and (max-width: 1101px) {
+    /* On augmente la largeur du tableau des calculs et du conteneur pour la livraison */
+    #calculs-table {
+        width: 98%;
+    }
+    #calculs-livraison-container {
+        width: 98%;
+    }
+}
+/* Pour les appareils ayant une largeur inférieure à 1168px */
+@media screen and (max-width: 1168px) {
+    /* On réduit la taille de l'input pour le nom de l'article */
+    #calculs-input-name {
+        width: 200px;
+    }
+}
+/* Pour les appareils ayant une largeur inférieure à 881px */
+@media screen and (max-width: 881px) {
+    /* On réduit la taille des input */
+    #calculs-input-name, #calculs-input-weight, #calculs-input-price {
+        width: 125px;
+    }
+}
+/* Pour les appareils ayant une largeur inférieure à 635px */
+@media screen and (max-width: 635px) {
+    /* On réduit la taille des input */
+    #calculs-input-name, #calculs-input-weight, #calculs-input-price {
+        width: 100px;
+    }
+}
+/* Pour les appareils ayant une largeur inférieure à 550px */
+@media screen and (max-width: 550px) {
+    /* On réduit la taille des input */
+    #calculs-input-name, #calculs-input-weight, #calculs-input-price {
+        width: 75px;
+    }
+}
+/* Pour les appareils ayant une largeur inférieure à 500px (ceux trop petit pour afficher correctement la page*/
+@media screen and (max-width: 500px) {
+    /* On cache les éléments de la page */
+    #calculs-page {
+        display: none;
+    }
+    /* On regarde si l'orientation est en portrait */
+    @media screen and (orientation: portrait) {
+        /* On affiche au centre de l'écran un message concernant l'orientation de l'appareil */
+        #calculs-rotate-warning {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    /* On regarde si l'orientation est en paysage */
+    @media screen and (orientation: landscape) {
+        /* On affiche au centre de l'écran un message concernant l'incompatibilité de l'appareil */
+        #calculs-rotate-error {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

@@ -4,6 +4,8 @@ $file_title = "page3";
 require "php/head.php";
 ?>
 
+<div id="calculs-page">
+
 <!-- titre principal de la page -->
 <h1>Les petits calculs pour des achats sûrs</h1>
 <br><!-- retour à la ligne -->
@@ -78,7 +80,14 @@ require "php/head.php";
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
 <button id="button-return-home" class="no-print"><a href="index.php">Revenir à la page principale</a></button>
 
-
+</div>
+<!-- Messages pour si l'appareil est trop petit ou incompatible -->
+<div class="display-none" id="calculs-rotate-warning">
+  <p>Veuillez mettre votre appareil en mode paysage</p>
+</div>
+<div class="display-none" id="calculs-rotate-error">
+  <p>Votre appareil n'est malheuresement pas compatible</p>
+</div>
 
 <?php
 require "php/footer.php";
