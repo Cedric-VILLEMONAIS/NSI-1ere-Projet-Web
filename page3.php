@@ -4,11 +4,9 @@ $file_title = "page3";
 require "php/head.php";
 ?>
 
-
+<!-- titre principal de la page -->
 <h1>Les petits calculs pour des achats sûrs</h1>
-
-<br>
-
+<br><!-- retour à la ligne -->
 
 <table id="calculs-table">
     <caption id="calculs-table-title"> Tableau de calcul </caption>
@@ -58,6 +56,7 @@ require "php/head.php";
 <button onclick="window.print();" id="calculs-print-button" class="no-print">Imprimer la page</button>
 
 <br><br>
+<!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
 <button id="button-return-home" class="no-print"><a href="index.php">Revenir à la page principale</a></button>
 
 
