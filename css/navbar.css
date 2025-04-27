@@ -119,7 +119,9 @@ header>ul>li>a:hover {
 }
 
 /* Code pour mobile */
+/* Pour les appareils ayant une largeur inférieure à 950px */
 @media screen and (max-width: 950px) {
+    /* On fixe le header en haut à droite de l'écran comme un petit bouton */
     header {
         position: fixed;
         width: 48px;
@@ -128,9 +130,11 @@ header>ul>li>a:hover {
         right: 5px;
         border-radius: 12px;
     }
+    /* On règle le padding du haut à 0 */
     header + * {
         padding-top: 0;
     }
+    /* On fixe le bouton mobile en haut à droite de l'écran comme un petit bouton et on modifie le curseur pour qu'il pointe dessus */
     .mobile-button {
         position: fixed;
         display: block;
@@ -139,23 +143,31 @@ header>ul>li>a:hover {
         top: 5px;
         right: 5px;
     }
+    /* On change les bordures des lignes du bouton mobile et on règle leur placement, que leur taille et leur coins arrondi */
     .mobile-button>div {
         border: 2px solid var(--navbar-mobile-button-lines-color);
         border-radius: 100px;
         width: 30px;
         margin: 5px 0 5px 0;
     }
-
+    /* Code pour le conteneur des liens (ul) */
     header>ul {
+        /* On fixe les liens pour qu'ils restent au même endroit */
         position: fixed;
+        /* On change la couleur d'arrière plan */
         background-color: var(--navbar-background-color);
+        /* On fait en sorte qu'ils prennent toute la place de haut en bas et on les places à -100% (hors de la zone visible) */
         top: 0;
         left: -100%;
         bottom: 0;
+        /* Placement des éléments au centre avec le même espacement à droite et à gauche par rapport à l'axe vertical */
         justify-content: space-around;
+        /* Changement du padding (intérieur) */
         padding: 50px 0;
+        /* Placement des éléments en colonne */
         flex-direction: column;
     }
+    /* On place les a au centre des li */
     header>ul>li {
         display: flex;
         justify-content: center;
@@ -164,35 +176,45 @@ header>ul>li>a:hover {
 
 /* Annimation bouton mobile actif */
 
+/* Quand on clique sur le bouton mobile, on déclenche une animation de 0.5 s pour les liens*/
 header>ul.active {
     animation: navbar-ul-animation 500ms forwards;
 }
 
+/* Définition de l'animation */
 @keyframes navbar-ul-animation {
+    /* Quand l'animation est fini, on place le coneneur des liens sur tout l'écran (fait une animation que les liens apparaissent de la gauche) */
     100% {
         left: 0;
     }
 }
 
+/* Quand on clique sur le bouton mobile, on déclenche une animation de 0.5 s pour la première ligne du bouton */
 .mobile-button.active>div:nth-child(1) {
     animation: mobile-button-animation-line1 500ms forwards;
 }
 
+/* Quand on clique sur le bouton mobile, on rend transparente la deuxième ligne du bouton */
 .mobile-button.active>div:nth-child(2) {
     opacity: 0;
 }
 
+/* Quand on clique sur le bouton mobile, on déclenche une animation de 0.5 s pour la troisième ligne du bouton */
 .mobile-button.active>div:nth-child(3) {
     animation: mobile-button-animation-line3 500ms forwards;
 }
 
+/* Définition de l'animation */
 @keyframes mobile-button-animation-line1 {
+    /* Quand l'animation est fini on tourne la ligne pour former une croix */
     100% {
         transform: translate(0px, 9px) rotate(225deg);
     }
 }
 
+/* Définition de l'animation */
 @keyframes mobile-button-animation-line3 {
+    /* Quand l'animation est fini on tourne la ligne pour former une croix */
     100% {
         transform: translate(0px, -9px) rotate(-225deg);
     }
