@@ -67,4 +67,4 @@
 - Pour finir, notre site web est responsive et donc s'adapte à tous les appareils, que ce soit un PC, une tablette ou encore un téléphone, ...
 
 # Améliorations possibles
-- 
+- Mettre une marge plus importante entre le texte et le bord du site
