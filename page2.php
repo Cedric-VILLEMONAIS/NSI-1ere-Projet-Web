@@ -19,7 +19,7 @@ require "php/head.php";
 <h3 id="sommaire1">Sommaire des différentes espèces</h3>
 <!-- liste organisée (avec des chiffres) avec comme classe 'sommaire' -->
 <ol class="sommaire">
-    <!-- les différentes variétés expliquées dans la page avec des liens pour y accéder directement  -->
+    <!-- les différentes variétés expliquées dans la page avec des liens pour y accéder directement et qui affiche le commentaire'Allez directement ici' lorsqu'on laisse la souris dessus  -->
     <li><p title="Allez directement ici !"><a href="#classiques">Tomates "Classiques"</a></p></li>
     <li><p title="Allez directement ici !"><a href="#cœur de bœuf">Tomates Cœurs de Bœuf</a></p></li>
     <li><p title="Allez directement ici !"><a href="#ananas">Tomates Ananas</a></p></li>
@@ -28,7 +28,7 @@ require "php/head.php";
 </ol><!-- fin de la liste -->
 <br><!-- retour à la ligne -->
 
-<!-- taille de titre 3 comportant l'id 'classiques' pour qu'on puisse y aller avec le sommaire -->
+<!-- taille de titre 3 comportant l'id 'classiques' pour y accéder plus rapidement via la sommaire -->
 <h3 id="classiques">Tomates "Classiques"</h3>
 <!-- paragraphe comportant des retour à la ligne pour la mise en page -->
 <p>La tomate rouge classique est la variété la plus répandue et consommée à travers le monde. De taille moyenne et de forme ronde, elle se distingue par sa peau lisse et sa couleur rouge vif à maturité. <br> Polyvalente en cuisine, elle se déguste aussi bien crue en salade, en sandwich ou en bruschetta, que cuite dans des sauces, des soupes ou des plats mijotés. Riche en eau, en vitamines et en antioxydants, elle est à la fois rafraîchissante et bénéfique pour la santé. <br> Sa culture est relativement simple : elle nécessite un bon ensoleillement, un arrosage régulier et un tuteurage pour les variétés à croissance indéterminée. Présente dans tous les potagers, elle offre une récolte généreuse durant toute la saison estivale.<br></p>
@@ -36,10 +36,10 @@ require "php/head.php";
 <a href="images/tomate_classique.png">
     <img src="images/tomate_classique.png" height="100px" weight='10px' alt="Photo d'une tomate classique" title="Cliquez pour voir en grand !">
 </a>
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 <!-- lien pour retourner au sommaire grâce à son id -->
 <a href="#sommaire1">Retourner au sommaire</a>
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 
 <!-- taille de titre 3 comportant l'id 'cœur de bœuf' pour y accéder plus rapidement via la sommaire -->
 <h3 id="cœur de bœuf">Tomates Cœurs de Bœuf</h3>
@@ -52,10 +52,10 @@ require "php/head.php";
 <a href="images/tomate_coeur_de_boeuf_coupe.png">
     <img src="images/tomate_coeur_de_boeuf_coupe.png" height="100px" weight='10px' alt="Photo d'une tomate cœur de bœuf coupée" title="Cliquez pour voir en grand !">
 </a> 
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 <!-- lien pour retourner au sommaire grâce à son id -->
 <a href="#sommaire1">Retourner au sommaire</a> 
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 
 <!-- taille de titre 3 avec l'id 'ananas' pour y accéder rapidement via le sommaire -->
 <h3 id="ananas">Tomates Ananas</h3>
@@ -68,10 +68,10 @@ require "php/head.php";
 <a href="images/tomate_ananas_coupe.png">
     <img src="images/tomate_ananas_coupe.png" height="100px" weight='10px' alt="Photo d'une tomate ananas coupée" title="Cliquez pour voir en grand !">
 </a> 
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 <!-- lien pour retourner au sommaire grâce à son id -->
 <a href="#sommaire1">Retourner au sommaire</a>
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 
 <!-- taille de titre 3 avec l'id 'cornues' pour y accéder rapidement via le sommaire -->
 <h3 id="cornues">Tomates Cornues</h3>
@@ -81,10 +81,10 @@ require "php/head.php";
 <a href="images/tomate_cornue.png">
     <img src="images/tomate_cornue.png" height="100px" weight='10px' alt="Photo d'une tomate cornue" title="Cliquez pour voir en grand !">
 </a>
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 <!-- lien pour retourner au sommaire grâce à son id -->
 <a href="#sommaire1">Retourner au sommaire</a>     
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 
 <!-- taille de titre 3 avec l'id 'cerises' pour y accéder rapidement via le sommaire -->
 <h3 id="cerises">Tomates Cerises</h3>
@@ -94,10 +94,10 @@ require "php/head.php";
 <a href="images/tomate_cerise.png">
     <img src="images/tomate_cerise.png" height="100px" weight='10px' alt="Photo d'une tomate cerise" title="Cliquez pour voir en grand !">
 </a>
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 <!-- lien pour retourner au sommaire grâce à son id -->
 <a href="#sommaire1">Retourner au sommaire</a>  
-<br><br><!-- 2 retour à la ligne -->
+<br><br><!-- 2 retours à la ligne -->
 
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
 <button><a href="index.php">Revenir à la page principale</a></button>
