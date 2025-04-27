@@ -65,3 +65,6 @@
 - Enfin, la dernière page 'Recettes' nous a permi, notamment, de mettre des balises span et div. De plus, cela permet à l'utilisateur de connaître quelques reccettes possibles avec es tomates et rapdement. Le sommaire comporte, comme dans la page 'variétés', des liens internes à la page, et chaque recette à un lien lui permettant de retourner au sommaire.
 - De plus, sur toutes les pages hormis celle des calculs, nous avons mis des balises de mise en forme (surligné, souligné, mettre ne gras).
 - Pour finir, notre site web est responsive et donc s'adapte à tous les appareils, que ce soit un PC, une tablette ou encore un téléphone, ...
+
+# Améliorations possibles
+- 
