@@ -24,29 +24,57 @@
 .carrousel_photo_container {
     /* Réglage de la hauteur à 400 pixels et de la largeur à 700 pixels */
     height: 400px;
-    width: 700px;
+    width: 400px;
     /* Définition de l'arorondissement des coins à 50 pixels */
     border-radius: 50px;
     /* Changement de l'arrière plan */
-    background: #fdf6f0;
+    background: #d8d8d8;
     /* Changement du mode d'affichage en flex */
     display: flex;
     /* Placement des éléments au centre par rapport à l'axe horizontal */
     justify-content: center;
 }
 
+/* Pour les différentes tailles d'écrans de téléphones on modifie la taille du carrousel */
+@media screen and (max-width: 505px) {
+    .carrousel_photo_container {
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 405px) {
+    .carrousel_photo_container {
+        height: 250px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 355px) {
+    .carrousel_photo_container {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 305px) {
+    .carrousel_photo_container {
+        height: 175px;
+        width: 175px;
+    }
+}
+
 /* Code pour les images du conteneur des photos */
 .carrousel_photo_container>img {
     /* Réglage de la hauteur à 100% (prend toute la hauteur disponible dans son parent */
     height: 100%;
+    border-radius: 50px;
 }
 
 /* Code pour les boutons précédent et suivant */
 #back_button, #next_button {
-    /* On cacher les bordures par défaut du bouton */
-    border: none;
+    /* On enlève les bordures et les marges du bouton */
+    border: 0;
+    margin: 0;
     /* Changement de l'arrière plan */
-    background: #fdf6f0;
+    background: #d8d8d8;
     /* Réglage de la hauteur à 50 pixels et de la largeur à 50 pixels */
     height: 50px;
     width: 50px;

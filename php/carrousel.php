@@ -10,14 +10,14 @@
         <!-- Affichage des images -->
         <?php // Pas de commentaire - rendu en HTML
             $images = [];
-            $scandir = scandir("images");
+            $scandir = scandir("images\carrousel");
             foreach($scandir as $fichier){
                 if(preg_match("#\.(png)$#i", $fichier)){
                     array_unshift($images, $fichier);
                 }
             }
             foreach($images as $fichier){
-                echo "<img class='carrousel_photo' src='./images/$fichier' alt=''>";
+                echo "<img class='carrousel_photo' src='./images/carrousel/$fichier' alt=''>";
             }
         ?>
     </div>
