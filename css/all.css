@@ -5,5 +5,7 @@
 @import url(navbar.css);
 /* Importation du CSS général */
 @import url(style.css);
+/* Importation de l'animation */
+@import url(loading-animation.css);
 /* Importation du CSS pour le design Google Material Icons */
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);

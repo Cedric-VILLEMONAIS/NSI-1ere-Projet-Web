@@ -1,0 +1,55 @@
+/* Conteneur principal pour l'animation de chargement */
+#loading-animation {
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    display: flex; /* Utilise Flexbox pour centrer les éléments */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+}
+
+/* Cercle extérieur de l'animation */
+#loading-animation-div {
+    display: grid; /* Utilise Grid pour centrer les éléments enfants */
+    place-items: center; /* Centre parfaitement les éléments enfants */
+    width: 200px; /* Largeur du cercle */
+    height: 200px; /* Hauteur du cercle */
+    margin: 0 20px; /* Marge horizontale */
+    border-radius: 50%; /* Rend le conteneur circulaire */
+    background: conic-gradient(rgb(6, 112, 6) 0 30%, #fdf6f0 30% 100%); /* Dégradé conique pour l'effet visuel */
+    animation: 1s rotate-right linear infinite; /* Animation de rotation dans le sens horaire */
+}
+
+/* Cercle intérieur de l'animation */
+#loading-animation-div #loading-animation-div-inner {
+    display: grid; /* Utilise Grid pour centrer les éléments enfants */
+    place-items: center; /* Centre parfaitement les éléments enfants */
+    width: 170px; /* Largeur du cercle intérieur */
+    height: 170px; /* Hauteur du cercle intérieur */
+    border-radius: 50%; /* Rend le conteneur circulaire */
+    background: #fdf6f0; /* Couleur de fond unie */
+    font-size: 30px; /* Taille de la police pour le contenu éventuel */
+}
+
+/* Image ou élément à l'intérieur du cercle */
+#loading-animation-image {
+    animation: 1s rotate-left linear infinite; /* Animation de rotation dans le sens antihoraire */
+}
+
+/* Animation pour la rotation dans le sens antihoraire */
+@keyframes rotate-left {
+    0% {
+        transform: rotate(0deg); /* Départ sans rotation */
+    }
+    100% {
+        transform: rotate(-360deg); /* Rotation complète dans le sens antihoraire */
+    }
+}
+
+/* Animation pour la rotation dans le sens horaire */
+@keyframes rotate-right {
+    0% {
+        transform: rotate(0deg); /* Départ sans rotation */
+    }
+    100% {
+        transform: rotate(360deg); /* Rotation complète dans le sens horaire */
+    }
+}

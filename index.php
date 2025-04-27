@@ -2,8 +2,9 @@
 $page_title = "Les tomates - Accueil";
 $file_title = "index";
 require "php/head.php";
+require "php/loading-animation.php";
 ?>
-
+<div id="contents">
 <!-- Titre principal de la page -->
 <h1> Tout sur les tomates !!</h1>
 <br><!-- retour à la ligne -->
@@ -24,7 +25,7 @@ require "php/head.php";
 <br><!-- retour à la ligne -->
 <!-- paragraphe avec l'id 'important' -->
 <p id="important">On espère que ce site vous a plû ! </p>
-
+</div>
 <?php
 require "php/footer.php";
 ?>
