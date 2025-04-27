@@ -10,19 +10,11 @@ require "php/head.php";
 
 <!-- création tableau de calculs avec l'id "calculs-table" -->
 <table id="calculs-table">
-<<<<<<< HEAD
     <!-- titre du tableau avec l'id "calculs-table-title" -->
     <caption id="calculs-table-title"> Tableau de calcul </caption>
     <!-- début du corps (intérieur) du tableau qui a pour id "calculs-table-tbody" -->
     <tbody id="calculs-table-tbody">
         <!-- définition d'une ligne de cellules avec l'id "calculs-table-head" -->
-=======
-    <!-- Légende du tableau (son titre) -->
-    <caption id="calculs-table-title"> Tableau de calcul </caption>
-    <!-- Création du corps du tableau -->
-    <tbody id="calculs-table-tbody">
-        <!-- Ligne d'en-tête -->
->>>>>>> 46ccfa4c23839f8838131efd02f778476ba8fdb6
         <tr id="calculs-table-head">
             <!-- création des 5 cellules d'en-tête de la ligne dont la dernière faisant partie de la classe 'no-print' -->
             <th>Type de tomate</th>
@@ -32,11 +24,7 @@ require "php/head.php";
             <th class="no-print"></th>
         <!-- fin définition de la ligne de cellules -->
         </tr>
-<<<<<<< HEAD
         <!-- définition d'une ligne de cellules avec l'id "calculs-table-name" et faisant partie de la classe "no-print" car cette ligne va servir à rentrer les informations nécessaires par l'utilisateur -->
-=======
-        <!-- Formulaire pour ajouter une ligne au tableau -->
->>>>>>> 46ccfa4c23839f8838131efd02f778476ba8fdb6
         <tr id="calculs-table-name" class="no-print">
             <!-- création des 5 cellules, comportant des données, de la ligne dont l'avant dernière étant vide, la dernière faisant partie de la classe 'no-print' (et comportant un bouton pour ajouter les informations grâce à l'id "calculs-input-submit") et les autres cellules ayant respectivement un id, un type, et un placeholder pour maintenir le texte jusqu'à ce que l'on écrive dessus (où il disparait). Et on a rajouter une taille à la première cellule -->
             <td><input type="text" id="calculs-input-name" size="50" placeholder="Écrivez quelque chose..."></td>
@@ -46,11 +34,7 @@ require "php/head.php";
             <td class="no-print"><button id="calculs-input-submit">Ajouter</button></td>
         <!-- fin définition de la ligne de cellules -->
         </tr>
-<<<<<<< HEAD
         <!-- définition d'une ligne de cellules avec l'id "calculs-table-total-row" -->
-=======
-        <!-- Dernière ligne avec le prix total des articles -->
->>>>>>> 46ccfa4c23839f8838131efd02f778476ba8fdb6
         <tr id="calculs-table-total-row">
             <!-- création des 5 cellules, pour comporter des données, de la ligne qui sont toutes vides et dont l'avant-dernière cellule possède l'id "calculs-table-total" pour pouvoir ajouter le résultat du calcul par la suite, et la dernière cellule qui fait partie de la classe 'no-print' pour ne pas l'imprimer -->
             <td></td>
