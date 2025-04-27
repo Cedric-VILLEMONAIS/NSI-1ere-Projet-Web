@@ -123,6 +123,11 @@ a:active {
     display: none;
 }
 
+/* Ajout d'une marge aux bords des pages */
+#contents, .page, #calculs-page {
+    margin: 0px 17px !important;
+}
+
 /* Code pour appareils plus petits */
 /* Pour les appareils ayant une largeur inférieure à 1300px */
 @media screen and (max-width: 1300px) {

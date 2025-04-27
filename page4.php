@@ -4,6 +4,8 @@ $file_title = "page4";
 require "php/head.php";
 ?>
 
+<div class="page">
+
 <!-- titre principal de la page -->
 <h1> Petites recettes </h1>
 <br><!-- retour à la ligne -->
@@ -92,6 +94,7 @@ require "php/head.php";
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
 <button id="button-return-home"><a href="index.php">Revenir à la page principale</a></button>
 
+</div>
 
 <?php
 require "php/footer.php";

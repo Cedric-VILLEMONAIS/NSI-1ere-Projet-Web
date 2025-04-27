@@ -3,7 +3,7 @@ $page_title = "Les tomates - Les variétés";
 $file_title = "page2";
 require "php/head.php";
 ?>
-
+<div class="page">
 <!-- titre principal de la page -->
 <h1>Les différentes variétés de tomates</h1>
 <!-- paragraphe avec un retour à la ligne et des éléments en gras -->
@@ -102,7 +102,7 @@ require "php/head.php";
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
 <button id="button-return-home"><a href="index.php">Revenir à la page principale</a></button>
 
-
+</div>
 <?php
 require "php/footer.php";
 ?>
