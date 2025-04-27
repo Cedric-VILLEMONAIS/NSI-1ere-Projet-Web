@@ -1,1 +1,2 @@
+# Fichier pour empêcher l'importation des fichiers .DS_Store de MacOS par Git
 .DS_Store
