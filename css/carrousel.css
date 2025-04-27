@@ -52,6 +52,10 @@
     width: 50px;
     /* Changement du mode de curseur vers un curseur pointer (même curseur que sur les liens) */
     cursor: pointer;
+    color: #000;
+}
+#back_button:active, #next_button:active {
+    box-shadow: none;
 }
 
 /* Code pour les icones des boutons précédent et suivant */
