@@ -1,14 +1,8 @@
+
 const Radio = document.getElementById("livraison-oui")
 const taxes = document.getElementById("taxes");
 const prix_total = document.getElementById("calculs-table-total").innerHTML
 
-Radio.addEventListener("mousedown", function() {
-  if (Radio.checked) {
-    taxes.style.visibility = "visible";
-  } else{
-    taxes.style.visibility = "hidden";
-  }
-});
 
 document.getElementById("taxes").addEventListener("click", function() {
   const prix_total = document.getElementById("calculs-table-total").innerHTML
