@@ -10,7 +10,7 @@
         <!-- Affichage des images -->
         <?php // Pas de commentaire - rendu en HTML
             $images = [];
-            $scandir = scandir("images\carrousel");
+            $scandir = scandir("images/carrousel");
             foreach($scandir as $fichier){
                 if(preg_match("#\.(png)$#i", $fichier)){
                     array_unshift($images, $fichier);
