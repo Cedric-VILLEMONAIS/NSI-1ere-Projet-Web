@@ -1,3 +1,4 @@
+/* */
 document.addEventListener('DOMContentLoaded', () => {
     const mobile_button = document.querySelector(".mobile-button");
     const navbar_ul = document.querySelector("header>ul")
