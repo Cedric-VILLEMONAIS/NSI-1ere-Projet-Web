@@ -1,7 +1,11 @@
+/* Feuille de style pour l'impression */
+
+/* On cache touts les éléments ayant la class no-print */
 .no-print {
     display: none;
 }
 
+/* On met le tableau des calculs sur toute la largeur de la page */
 #calculs-table {
     width: 100%;
 }
