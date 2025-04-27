@@ -25,6 +25,7 @@
 - Création bouton impression
 - Aide rédaction readme.md
 - Placeholder page3
+- Rendre tout le site web responsive pour toutes tablettes et touts les mobiles
 
 
 
