@@ -100,7 +100,7 @@ require "php/head.php";
 <br><br><!-- 2 retours à la ligne -->
 
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
-<button><a href="index.php">Revenir à la page principale</a></button>
+<button id="button-return-home"><a href="index.php">Revenir à la page principale</a></button>
 
 
 <?php

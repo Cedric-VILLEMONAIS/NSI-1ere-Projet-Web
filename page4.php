@@ -90,7 +90,7 @@ require "php/head.php";
 <br><!-- retour à la ligne -->
 
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
-<button><a href="index.php">Revenir à la page principale</a></button>
+<button id="button-return-home"><a href="index.php">Revenir à la page principale</a></button>
 
 
 <?php
