@@ -1,0 +1,88 @@
+<!-- Balise indiquant que la page est en HTML -->
+<!DOCTYPE html>
+<!-- Balise HTML et changement de la langue du site web par Français -->
+<html lang="fr">
+    <head>
+        <!-- On indique au navigateur que les caractères du site web sont codé en UTF-8 -->
+        <meta charset="UTF-8">
+        <!-- Code pour le responsive du site web -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Importation des styles -->
+        <link rel="stylesheet" href="./css/all.css">
+        <!-- Titre de la page -->
+        <title>Les tomates - Accueil</title>
+        <!-- Importation de la favicon -->
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+        <!-- Importation de la police Roboto depuis Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <!-- Ajout de la barre de navigation -->
+    <header class="no-print">
+        <!-- Ajout des différents liens de la barre de navigation sous forme de liste -->
+        <ul>
+            <li><a href="index.html" class='navbar-a-active'>Accueil</a></li>
+            <li><a href="page2.html">Les variétés</a></li>
+            <li><a href="page3.html">Calculs</a></li>
+            <li><a href="page4.html">Recettes</a></li>
+        </ul>
+        <!-- Ajout du bouton pour ouvrir le menu de la barre de navigation sur mobile -->
+        <div class="mobile-button">
+            <!-- Lignes du bouton -->
+            <div class="mobile-button-line-1"></div>
+            <div class="mobile-button-line-2"></div>
+            <div class="mobile-button-line-3"></div>
+        </div>
+    </header>
+
+<!-- Conteneur principal pour l'animation de chargement -->
+<loader id="loading-animation">
+    <!-- Cercle extérieur de l'animation -->
+    <div id="loading-animation-div">
+        <!-- Cercle intérieur de l'animation -->
+        <div id="loading-animation-div-inner">
+            <!-- Image ou logo affiché au centre de l'animation -->
+            <img src="images/logo.png" height="165px" width="165px" id="loading-animation-image">
+        </div>
+    </div>
+</loader>
+
+<!-- Inclusion du script JavaScript pour gérer l'animation de chargement -->
+<script src="js/loading-animation.js"></script>
+
+
+<div id="contents">
+<!-- Titre principal de la page -->
+<h1> Tout sur les tomates !!</h1>
+<br><!-- retour à la ligne -->
+<!-- paragraphe mis en italique avec un lien menant à une page wikipedia pour expliquer plus en détail les tomates, et qui s'ouvre dzns un autre onglet -->
+<p><em>On vous dit tout sur ces fruits que l'on confond souvent avec des légumes: les <a href="https://fr.wikipedia.org/wiki/Tomate" target="_blank">tomates</a></em></p>
+<!-- taille de titre 2 auquel on ajoute une classe nommer 'introduction' -->
+<h2 class="introduction"> Découvrez tout d'abord ce que nous vous proposons sur notre site:</h2>
+<br><br><!-- 2 retour à la ligne -->
+<!-- taille de titre 3 pour présenter le sommaire -->
+<h3> Sommaire:</h3>
+<!-- liste non ordonnée (avec des points) qui correspond à la classe sommaire -->
+<ul class="sommaire">
+    <!-- Les 3 autres pages du site accessible par un lien respectif -->
+    <li><a href="page2.html">Les différentes variétés</a></li>
+    <li><a href="page3.html">Rapides calculs pour un achat sûr</a></li>
+    <li><a href="page4.html">Petites Recettes</a></li>
+</ul><!-- fin de la liste -->
+<br><!-- retour à la ligne -->
+<!-- paragraphe avec l'id 'important' -->
+<p id="important">On espère que ce site vous a plû ! </p>
+</div>
+
+<!-- Intégration du code JavaScript pour la barre de navigation -->
+<script src="./js/navbar.js"></script>
+<!-- Intégration du code JavaScript pour les scripts et calculs du site -->
+        <script src="./js/script.js"></script>
+<!-- Intégration du code JavaScript pour les autres scripts du site -->
+        <script src="./js/scripttwo.js"></script>
+<!-- Intégration du code JavaScript pour le bouton pour rajouter les frais de livraison -->
+        <script src="./js/livraison.js"></script>
+    </body>
+</html>

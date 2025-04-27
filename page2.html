@@ -1,18 +1,79 @@
-<?php
-$page_title = "Les tomates - Les variétés";
-$file_title = "page2";
-require "php/head.php";
-?>
+<!-- Balise indiquant que la page est en HTML -->
+<!DOCTYPE html>
+<!-- Balise HTML et changement de la langue du site web par Français -->
+<html lang="fr">
+    <head>
+        <!-- On indique au navigateur que les caractères du site web sont codé en UTF-8 -->
+        <meta charset="UTF-8">
+        <!-- Code pour le responsive du site web -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Importation des styles -->
+        <link rel="stylesheet" href="./css/all.css">
+        <!-- Titre de la page -->
+        <title>Les tomates - Les variétés</title>
+        <!-- Importation de la favicon -->
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+        <!-- Importation de la police Roboto depuis Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <!-- Ajout de la barre de navigation -->
+    <header class="no-print">
+        <!-- Ajout des différents liens de la barre de navigation sous forme de liste -->
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page2.html" class='navbar-a-active'>Les variétés</a></li>
+            <li><a href="page3.html">Calculs</a></li>
+            <li><a href="page4.html">Recettes</a></li>
+        </ul>
+        <!-- Ajout du bouton pour ouvrir le menu de la barre de navigation sur mobile -->
+        <div class="mobile-button">
+            <!-- Lignes du bouton -->
+            <div class="mobile-button-line-1"></div>
+            <div class="mobile-button-line-2"></div>
+            <div class="mobile-button-line-3"></div>
+        </div>
+    </header>
+
+
 <div class="page">
 <!-- titre principal de la page -->
 <h1>Les différentes variétés de tomates</h1>
 <!-- paragraphe avec un retour à la ligne et des éléments en gras -->
 <p>Des <strong>petites</strong> aux <strong>énormes</strong>, les tomates ne cessent de changer de formes. <br> Voici certaines des diverses espèces des ces fruits pas nécessairement rouges !</p>
 <br><!-- retour à la ligne -->
-<!-- importation du carrousel -->
-<?php
-    require "php/carrousel.php"
-?>
+
+
+<!-- Container pour le code du carrousel -->
+<div class="carrousel_container">
+    <!-- Bouton pour voire l'image arrière (utilisation de lafonction js change()) -->
+    <button id="back_button" onclick="change('back')">
+        <!-- Icone flèche gauche - Google Font material design icons -->
+        <span class="material-icons">arrow_back</span>
+    </button>
+    <!-- Container des images -->
+    <div class="carrousel_photo_container">
+        <!-- Affichage des images -->
+        <img class='carrousel_photo' src='./images/carrousel/tomate_ananas_coupe.png' alt="Photo d'une tomate">
+        <img class='carrousel_photo' src='./images/carrousel/tomate_ananas.png' alt="Photo d'une tomate">
+        <img class='carrousel_photo' src='./images/carrousel/tomate_cerise.png' alt="Photo d'une tomate">
+        <img class='carrousel_photo' src='./images/carrousel/tomate_classique.png' alt="Photo d'une tomate">
+        <img class='carrousel_photo' src='./images/carrousel/tomate_coeur_de_boeuf.png' alt="Photo d'une tomate">
+        <img class='carrousel_photo' src='./images/carrousel/tomate_cornue.png' alt="Photo d'une tomate">
+    </div>
+    <!-- Bouton pour voire l'image suivante (utilisation de lafonction js change()) -->
+    <button id="next_button" onclick="change('next')">
+        <!-- Icone flèche droite - Google Font material design icons -->
+        <span class="material-icons">arrow_forward</span>
+    </button>
+</div>
+<!-- Intégration du code JavaScript pour le carrousel -->
+<script src="./js/carrousel.js"></script>
+
+
+
 <br><!-- retour à la ligne -->
 
 <!-- taille de titre 3 avec comme id 'sommaire1' -->
@@ -100,9 +161,17 @@ require "php/head.php";
 <br><br><!-- 2 retours à la ligne -->
 
 <!-- création d'un bouton avec un lien pour retourner à la page principale rapidement -->
-<button id="button-return-home"><a href="index.php">Revenir à la page principale</a></button>
+<button id="button-return-home"><a href="index.html">Revenir à la page principale</a></button>
 
 </div>
-<?php
-require "php/footer.php";
-?>
+
+<!-- Intégration du code JavaScript pour la barre de navigation -->
+<script src="./js/navbar.js"></script>
+<!-- Intégration du code JavaScript pour les scripts et calculs du site -->
+        <script src="./js/script.js"></script>
+<!-- Intégration du code JavaScript pour les autres scripts du site -->
+        <script src="./js/scripttwo.js"></script>
+<!-- Intégration du code JavaScript pour le bouton pour rajouter les frais de livraison -->
+        <script src="./js/livraison.js"></script>
+    </body>
+</html>
