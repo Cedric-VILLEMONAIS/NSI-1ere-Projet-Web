@@ -10,8 +10,11 @@ require "php/head.php";
 
 <!-- création tableau de calculs avec l'id "calculs-table" -->
 <table id="calculs-table">
+    <!-- Légende du tableau (son titre) -->
     <caption id="calculs-table-title"> Tableau de calcul </caption>
+    <!-- Création du corps du tableau -->
     <tbody id="calculs-table-tbody">
+        <!-- Ligne d'en-tête -->
         <tr id="calculs-table-head">
             <th>Type de tomate</th>
             <th>Masse voulue (en kg)</th>
@@ -19,6 +22,7 @@ require "php/head.php";
             <th>Prix final (en €)</th>
             <th class="no-print"></th>
         </tr>
+        <!-- Formulaire pour ajouter une ligne au tableau -->
         <tr id="calculs-table-name" class="no-print">
             <td><input type="text" id="calculs-input-name" size="50" placeholder="Écrivez quelque chose..."></td>
             <td><input id="calculs-input-weight" type="number" placeholder="Entrer nombre..."></td>
@@ -26,6 +30,7 @@ require "php/head.php";
             <td></td>
             <td class="no-print"><button id="calculs-input-submit">Ajouter</button></td>
         </tr>
+        <!-- Dernière ligne avec le prix total des articles -->
         <tr id="calculs-table-total-row">
             <td></td>
             <td></td>
